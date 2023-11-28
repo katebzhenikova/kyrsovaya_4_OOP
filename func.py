@@ -12,7 +12,9 @@ def user_interaction():
 
     if platform_choise == 0:
         quit()
+
     search_query = str(input('Введите ключевое слово для поиска вакансий:\n').title())
+
     hh_api_get = HH_api_get(search_query)
     vacancies_hh = VacanciesHH()
     hh_api_get.get_vacancies()
@@ -47,7 +49,6 @@ def user_interaction():
             vacancies.sorted_by_city(city)
             break
 
-    vacancies.salary_int()
     while True:
         try:
             vacancies_filter = int(input('''
@@ -62,10 +63,10 @@ def user_interaction():
             continue
         try:
             if vacancies_filter == 1:
-                vacancies.sorted_by_salary_up() and vacancies_hh.salary_none()
+                vacancies.sorted_by_salary_up()
                 break
             if vacancies_filter == 2:
-                vacancies.sorted_by_salary_down() and vacancies_hh.salary_none()
+                vacancies.sorted_by_salary_down()
                 break
             if vacancies_filter == 3:
                 salary_from = int(input('Введите зарплата от '))

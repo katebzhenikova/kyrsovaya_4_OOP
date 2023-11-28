@@ -91,7 +91,7 @@ class VacanciesSJ(VacanciesHH):
         return self.sorted_city_name
 
     def __repr__(self):
-        return f"{self.__class__.__name__}"
+        return f'{self.__class__.__name__}({self.sorted_city_name}, {self.sorted_by_salary_up}, {self.sorted_by_salary_down})'
 
     def __str__(self):
         return f'{self.sort_vacancies}'
