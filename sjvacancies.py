@@ -1,4 +1,7 @@
-from hhvacancies import*
+import os
+from abstract_classes import *
+import requests
+import json
 
 class SuperJob(APIget):
     def __init__(self, keyword, page=1):
@@ -19,9 +22,10 @@ class SuperJob(APIget):
             json.dump(self.get_vacancies(), file, ensure_ascii=False, indent=4)
 
 
-class VacanciesSJ(VacanciesHH):
+class VacanciesSJ:
     def __init__(self):
-        super().__init__()
+        self.sort_vacancies = []
+        self.sorted_city_name = []
 
     def sorted_vacancies(self):
         '''Чтение и сортировка полученного файла .json'''

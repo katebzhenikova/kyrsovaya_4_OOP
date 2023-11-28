@@ -1,5 +1,6 @@
 import os
 from abstract_classes import *
+from sjvacancies import *
 import requests
 import json
 
@@ -30,13 +31,13 @@ class HH_api_get(APIget):
 
 
 
-class VacanciesHH:
+class VacanciesHH(VacanciesSJ):
 
     def __init__(self):
+        super().__init__()
         self.salary_from = 0
         self.salary_to = 0
-        self.sort_vacancies = []
-        self.sorted_city_name = []
+
 
 
     def sorted_vacancies(self):
@@ -54,8 +55,8 @@ class VacanciesHH:
                 if self.salary_to is None:
                     self.salary_to = 0
             if i['salary'] is None:
-                i['salary'] = 'не указано'
-
+                self.salary_from = 0
+                self.salary_to = 0
             vacancy = {'Вакансия': i['name'], 'URL адрес': i['area']['url'],
                        'Место расположения': i['area']['name'], 'Зарплата от': self.salary_from, 'Зарплата до': self.salary_to,
                        'Опыт работы': i['experience']['name'], 'Требования': i['snippet']['requirement']}
@@ -135,8 +136,9 @@ class VacanciesHH:
 # v.sorted_vacancies()
 # #
 # v.sorted_by_city('Москва')
-#
+# #
 # #v.sorted_by_salary_up()
+# v.sorted_by_city_print()
 # v.sorted_by_salary_down()
 #v.sorted_by_salary_range(10000, 80000)
 

@@ -1,19 +1,105 @@
 {
     "items": [
         {
-            "id": "90008487",
+            "id": "89925668",
             "premium": false,
-            "name": "Водитель в автосалон TANK / CHANGAN",
+            "name": "Семейный водитель-телохранитель",
+            "department": null,
+            "has_test": false,
+            "response_letter_required": true,
+            "area": {
+                "id": "160",
+                "name": "Алматы",
+                "url": "https://api.hh.ru/areas/160"
+            },
+            "salary": {
+                "from": 350000,
+                "to": 400000,
+                "currency": "KZT",
+                "gross": false
+            },
+            "type": {
+                "id": "open",
+                "name": "Открытая"
+            },
+            "address": {
+                "city": "Алматы",
+                "street": "канатная дорога Кок-Тобе",
+                "building": "станция канатной дороги Кок-Тобе",
+                "lat": 43.234286,
+                "lng": 76.975568,
+                "description": null,
+                "raw": "Алматы, канатная дорога Кок-Тобе, станция канатной дороги Кок-Тобе",
+                "metro": null,
+                "metro_stations": [],
+                "id": "13999565"
+            },
+            "response_url": null,
+            "sort_point_distance": null,
+            "published_at": "2023-11-26T09:47:29+0300",
+            "created_at": "2023-11-26T09:47:29+0300",
+            "archived": false,
+            "apply_alternate_url": "https://hh.ru/applicant/vacancy_response?vacancyId=89925668",
+            "insider_interview": null,
+            "url": "https://api.hh.ru/vacancies/89925668?host=hh.ru",
+            "alternate_url": "https://hh.ru/vacancy/89925668",
+            "relations": [],
+            "employer": {
+                "id": "2167816",
+                "name": "Botanika",
+                "url": "https://api.hh.ru/employers/2167816",
+                "alternate_url": "https://hh.ru/employer/2167816",
+                "logo_urls": null,
+                "vacancies_url": "https://api.hh.ru/vacancies?employer_id=2167816",
+                "accredited_it_employer": false,
+                "trusted": true
+            },
+            "snippet": {
+                "requirement": "Презентабельный внешний вид и классическая форма одежды. Безопасное вождение и безаварийный стаж. Стаж более 10 лет на авто представительного класса. ",
+                "responsibility": "Содержание авто в чистоте и исправности. Сопровождение членов семьи и контроль безопасности. Бытовые поручения (ремонт, закуп продуктов, химчистка и тд). "
+            },
+            "contacts": null,
+            "schedule": {
+                "id": "fullDay",
+                "name": "Полный день"
+            },
+            "working_days": [],
+            "working_time_intervals": [],
+            "working_time_modes": [],
+            "accept_temporary": true,
+            "professional_roles": [
+                {
+                    "id": "40",
+                    "name": "Другое"
+                }
+            ],
+            "accept_incomplete_resumes": true,
+            "experience": {
+                "id": "moreThan6",
+                "name": "Более 6 лет"
+            },
+            "employment": {
+                "id": "full",
+                "name": "Полная занятость"
+            },
+            "adv_response_url": null,
+            "is_adv_vacancy": false,
+            "adv_context": null
+        },
+        {
+            "id": "90033068",
+            "premium": false,
+            "name": "Персональный / личный водитель",
             "department": null,
             "has_test": false,
             "response_letter_required": false,
             "area": {
-                "id": "54",
-                "name": "Красноярск",
-                "url": "https://api.hh.ru/areas/54"
+                "id": "1",
+                "name": "Москва",
+                "url": "https://api.hh.ru/areas/1"
             },
             "salary": {
-                "from": 55000,
+                "from": 103400,
                 "to": null,
                 "currency": "RUR",
                 "gross": true
@@ -22,51 +108,35 @@
                 "id": "open",
                 "name": "Открытая"
             },
-            "address": {
-                "city": "Красноярск",
-                "street": "улица Партизана Железняка",
-                "building": "46Ас2",
-                "lat": 56.040395,
-                "lng": 92.932881,
-                "description": null,
-                "raw": "Красноярск, улица Партизана Железняка, 46Ас2",
-                "metro": null,
-                "metro_stations": [],
-                "id": "13792387"
-            },
+            "address": null,
             "response_url": null,
             "sort_point_distance": null,
-            "published_at": "2023-11-28T06:08:29+0300",
-            "created_at": "2023-11-28T06:08:29+0300",
+            "published_at": "2023-11-28T12:21:23+0300",
+            "created_at": "2023-11-28T12:21:23+0300",
             "archived": false,
-            "apply_alternate_url": "https://hh.ru/applicant/vacancy_response?vacancyId=90008487",
-            "branding": {
-                "type": "MAKEUP",
-                "tariff": null
-            },
-            "show_logo_in_search": true,
+            "apply_alternate_url": "https://hh.ru/applicant/vacancy_response?vacancyId=90033068",
+            "show_logo_in_search": null,
             "insider_interview": null,
-            "url": "https://api.hh.ru/vacancies/90008487?host=hh.ru",
-            "alternate_url": "https://hh.ru/vacancy/90008487",
+            "url": "https://api.hh.ru/vacancies/90033068?host=hh.ru",
+            "alternate_url": "https://hh.ru/vacancy/90033068",
             "relations": [],
             "employer": {
-                "id": "214154",
-                "name": "ГК АГАТ",
-                "url": "https://api.hh.ru/employers/214154",
-                "alternate_url": "https://hh.ru/employer/214154",
+                "id": "59450",
+                "name": "Smart Group",
+                "url": "https://api.hh.ru/employers/59450",
+                "alternate_url": "https://hh.ru/employer/59450",
                 "logo_urls": {
-                    "240": "https://hhcdn.ru/employer-logo/681951.jpeg",
-                    "90": "https://hhcdn.ru/employer-logo/681950.jpeg",
-                    "original": "https://hhcdn.ru/employer-logo-original/189897.jpg"
+                    "240": "https://hhcdn.ru/employer-logo/6303699.jpeg",
+                    "90": "https://hhcdn.ru/employer-logo/6303698.jpeg",
+                    "original": "https://hhcdn.ru/employer-logo-original/1170816.jpg"
                 },
-                "vacancies_url": "https://api.hh.ru/vacancies?employer_id=214154",
-                "accredited_it_employer": true,
+                "vacancies_url": "https://api.hh.ru/vacancies?employer_id=59450",
+                "accredited_it_employer": false,
                 "trusted": true
             },
-            "personal_data_resale": false,
             "snippet": {
-                "requirement": "Права категории В, стаж вождения от 1 года. Уверенный опыт вождения а/м‚ умение управлять автомобилем как с МКПП, так...",
-                "responsibility": "Перегонять автомобили по территории автосалона и контролировать местонахождение автомобилей. Доставлять автомобили на сервисное обслуживание или ремонт. Подготавливать автомобили к выдаче..."
+                "requirement": "Опыт работы персональным/личным <highlighttext>водителем</highlighttext>. Опрятный внешний вид. Ответственность, пунктуальность, тактичность, стрессоустойчивость.",
+                "responsibility": "Обеспечение мобильности руководителя, своевременная подача автомобиля и комфортное сопровождение руководителя до места назначения (плавная манера езды). Поддержание автомобиля компании в..."
             },
             "contacts": null,
             "schedule": {
@@ -85,6 +155,847 @@
             ],
             "accept_incomplete_resumes": false,
             "experience": {
+                "id": "between1And3",
+                "name": "От 1 года до 3 лет"
+            },
+            "employment": {
+                "id": "full",
+                "name": "Полная занятость"
+            },
+            "adv_response_url": null,
+            "is_adv_vacancy": false,
+            "adv_context": null
+        },
+        {
+            "id": "90040051",
+            "premium": false,
+            "name": "Персональный водитель",
+            "department": null,
+            "has_test": false,
+            "response_letter_required": false,
+            "area": {
+                "id": "1",
+                "name": "Москва",
+                "url": "https://api.hh.ru/areas/1"
+            },
+            "salary": null,
+            "type": {
+                "id": "open",
+                "name": "Открытая"
+            },
+            "address": null,
+            "response_url": null,
+            "sort_point_distance": null,
+            "published_at": "2023-11-28T13:31:29+0300",
+            "created_at": "2023-11-28T13:31:29+0300",
+            "archived": false,
+            "apply_alternate_url": "https://hh.ru/applicant/vacancy_response?vacancyId=90040051",
+            "show_logo_in_search": null,
+            "insider_interview": null,
+            "url": "https://api.hh.ru/vacancies/90040051?host=hh.ru",
+            "alternate_url": "https://hh.ru/vacancy/90040051",
+            "relations": [],
+            "employer": {
+                "id": "9333872",
+                "name": "Восточный ветер",
+                "url": "https://api.hh.ru/employers/9333872",
+                "alternate_url": "https://hh.ru/employer/9333872",
+                "logo_urls": {
+                    "original": "https://hhcdn.ru/employer-logo-original/1036492.jpeg",
+                    "240": "https://hhcdn.ru/employer-logo/5766729.jpeg",
+                    "90": "https://hhcdn.ru/employer-logo/5766728.jpeg"
+                },
+                "vacancies_url": "https://api.hh.ru/vacancies?employer_id=9333872",
+                "accredited_it_employer": false,
+                "trusted": true
+            },
+            "snippet": {
+                "requirement": "Опыт работы персональным <highlighttext>водителем</highlighttext> на автомобилях представительского класса обязателен. Высокий уровень ответственности и субординации. Уверенный и безопасный стиль вождения!",
+                "responsibility": "Своевременная подача автомобиля. Выполнение персональных поручений руководителя. Содержание автомобиля в чистоте и исправном состоянии."
+            },
+            "contacts": null,
+            "schedule": {
+                "id": "fullDay",
+                "name": "Полный день"
+            },
+            "working_days": [],
+            "working_time_intervals": [],
+            "working_time_modes": [],
+            "accept_temporary": false,
+            "professional_roles": [
+                {
+                    "id": "21",
+                    "name": "Водитель"
+                }
+            ],
+            "accept_incomplete_resumes": false,
+            "experience": {
+                "id": "between3And6",
+                "name": "От 3 до 6 лет"
+            },
+            "employment": {
+                "id": "full",
+                "name": "Полная занятость"
+            },
+            "adv_response_url": null,
+            "is_adv_vacancy": false,
+            "adv_context": null
+        },
+        {
+            "id": "89929952",
+            "premium": false,
+            "name": "Семейный водитель",
+            "department": null,
+            "has_test": false,
+            "response_letter_required": false,
+            "area": {
+                "id": "1",
+                "name": "Москва",
+                "url": "https://api.hh.ru/areas/1"
+            },
+            "salary": {
+                "from": 100000,
+                "to": 120000,
+                "currency": "RUR",
+                "gross": false
+            },
+            "type": {
+                "id": "open",
+                "name": "Открытая"
+            },
+            "address": {
+                "city": "рабочий посёлок Заречье",
+                "street": "Тихая улица",
+                "building": "26к3",
+                "lat": 55.678164,
+                "lng": 37.385744,
+                "description": null,
+                "raw": "рабочий посёлок Заречье, Тихая улица, 26к3",
+                "metro": null,
+                "metro_stations": [],
+                "id": "5743510"
+            },
+            "response_url": null,
+            "sort_point_distance": null,
+            "published_at": "2023-11-26T12:00:35+0300",
+            "created_at": "2023-11-26T12:00:35+0300",
+            "archived": false,
+            "apply_alternate_url": "https://hh.ru/applicant/vacancy_response?vacancyId=89929952",
+            "insider_interview": null,
+            "url": "https://api.hh.ru/vacancies/89929952?host=hh.ru",
+            "alternate_url": "https://hh.ru/vacancy/89929952",
+            "relations": [],
+            "employer": {
+                "id": "3153067",
+                "name": "Лайт-Продакшн",
+                "url": "https://api.hh.ru/employers/3153067",
+                "alternate_url": "https://hh.ru/employer/3153067",
+                "logo_urls": null,
+                "vacancies_url": "https://api.hh.ru/vacancies?employer_id=3153067",
+                "accredited_it_employer": false,
+                "trusted": true
+            },
+            "snippet": {
+                "requirement": "Во время езды не отвлекаться на телефон. Никакой ненормативной лексики. Аккуратность. Пунктуальность. - Стрессоустойчивость. - стаж не менее 15 лет. - ",
+                "responsibility": "Никаких заправок с пассажирами. Машина всегда должна быть чистой внутри и заправленной. Без согласование не отлучаться из машины. "
+            },
+            "contacts": null,
+            "schedule": {
+                "id": "fullDay",
+                "name": "Полный день"
+            },
+            "working_days": [],
+            "working_time_intervals": [],
+            "working_time_modes": [],
+            "accept_temporary": false,
+            "professional_roles": [
+                {
+                    "id": "21",
+                    "name": "Водитель"
+                }
+            ],
+            "accept_incomplete_resumes": false,
+            "experience": {
+                "id": "moreThan6",
+                "name": "Более 6 лет"
+            },
+            "employment": {
+                "id": "full",
+                "name": "Полная занятость"
+            },
+            "adv_response_url": null,
+            "is_adv_vacancy": false,
+            "adv_context": null
+        },
+        {
+            "id": "90041107",
+            "premium": false,
+            "name": "Семейный водитель",
+            "department": null,
+            "has_test": false,
+            "response_letter_required": false,
+            "area": {
+                "id": "1",
+                "name": "Москва",
+                "url": "https://api.hh.ru/areas/1"
+            },
+            "salary": {
+                "from": 110000,
+                "to": 120000,
+                "currency": "RUR",
+                "gross": false
+            },
+            "type": {
+                "id": "open",
+                "name": "Открытая"
+            },
+            "address": {
+                "city": "Москва",
+                "street": "Замоскворецкая линия",
+                "building": "метро Войковская",
+                "lat": 55.819064,
+                "lng": 37.498016,
+                "description": null,
+                "raw": "Москва, Замоскворецкая линия, метро Войковская",
+                "metro": null,
+                "metro_stations": [],
+                "id": "14765585"
+            },
+            "response_url": null,
+            "sort_point_distance": null,
+            "published_at": "2023-11-28T13:47:59+0300",
+            "created_at": "2023-11-28T13:47:59+0300",
+            "archived": false,
+            "apply_alternate_url": "https://hh.ru/applicant/vacancy_response?vacancyId=90041107",
+            "show_logo_in_search": null,
+            "insider_interview": null,
+            "url": "https://api.hh.ru/vacancies/90041107?host=hh.ru",
+            "alternate_url": "https://hh.ru/vacancy/90041107",
+            "relations": [],
+            "employer": {
+                "id": "3292800",
+                "name": "Lucky Personal",
+                "url": "https://api.hh.ru/employers/3292800",
+                "alternate_url": "https://hh.ru/employer/3292800",
+                "logo_urls": {
+                    "original": "https://hhcdn.ru/employer-logo-original/645287.jpg",
+                    "90": "https://hhcdn.ru/employer-logo/3022296.jpeg",
+                    "240": "https://hhcdn.ru/employer-logo/3022297.jpeg"
+                },
+                "vacancies_url": "https://api.hh.ru/vacancies?employer_id=3292800",
+                "accredited_it_employer": false,
+                "trusted": true
+            },
+            "snippet": {
+                "requirement": "Опыт работы и рекомендации обязательно. Опыт работы с детьми. Аккуратный, ответственный, исполнительный.",
+                "responsibility": "Транспортное сопровождение семьи ( мама, дети). Контроль за техническим состоянием автомобиля. Выполнение личных поручений."
+            },
+            "contacts": null,
+            "schedule": {
+                "id": "fullDay",
+                "name": "Полный день"
+            },
+            "working_days": [],
+            "working_time_intervals": [],
+            "working_time_modes": [],
+            "accept_temporary": false,
+            "professional_roles": [
+                {
+                    "id": "21",
+                    "name": "Водитель"
+                }
+            ],
+            "accept_incomplete_resumes": false,
+            "experience": {
+                "id": "between1And3",
+                "name": "От 1 года до 3 лет"
+            },
+            "employment": {
+                "id": "full",
+                "name": "Полная занятость"
+            },
+            "adv_response_url": null,
+            "is_adv_vacancy": false,
+            "adv_context": null
+        },
+        {
+            "id": "90014576",
+            "premium": false,
+            "name": "Водитель",
+            "department": null,
+            "has_test": false,
+            "response_letter_required": false,
+            "area": {
+                "id": "177",
+                "name": "Караганда",
+                "url": "https://api.hh.ru/areas/177"
+            },
+            "salary": {
+                "from": 300000,
+                "to": 330000,
+                "currency": "KZT",
+                "gross": true
+            },
+            "type": {
+                "id": "open",
+                "name": "Открытая"
+            },
+            "address": null,
+            "response_url": null,
+            "sort_point_distance": null,
+            "published_at": "2023-11-28T09:11:32+0300",
+            "created_at": "2023-11-28T09:11:32+0300",
+            "archived": false,
+            "apply_alternate_url": "https://hh.ru/applicant/vacancy_response?vacancyId=90014576",
+            "insider_interview": null,
+            "url": "https://api.hh.ru/vacancies/90014576?host=hh.ru",
+            "alternate_url": "https://hh.ru/vacancy/90014576",
+            "relations": [],
+            "employer": {
+                "id": "5066010",
+                "name": "Вторсырье Караганда",
+                "url": "https://api.hh.ru/employers/5066010",
+                "alternate_url": "https://hh.ru/employer/5066010",
+                "logo_urls": null,
+                "vacancies_url": "https://api.hh.ru/vacancies?employer_id=5066010",
+                "accredited_it_employer": false,
+                "trusted": true
+            },
+            "snippet": {
+                "requirement": "Опыт работы.",
+                "responsibility": "Возить вторичное сырье с магазинов. Закуп картона, полиэтилена по городу и спутников городов Караганды."
+            },
+            "contacts": null,
+            "schedule": {
+                "id": "fullDay",
+                "name": "Полный день"
+            },
+            "working_days": [],
+            "working_time_intervals": [],
+            "working_time_modes": [],
+            "accept_temporary": false,
+            "professional_roles": [
+                {
+                    "id": "21",
+                    "name": "Водитель"
+                }
+            ],
+            "accept_incomplete_resumes": true,
+            "experience": {
+                "id": "between1And3",
+                "name": "От 1 года до 3 лет"
+            },
+            "employment": {
+                "id": "full",
+                "name": "Полная занятость"
+            },
+            "adv_response_url": null,
+            "is_adv_vacancy": false,
+            "adv_context": null
+        },
+        {
+            "id": "90042655",
+            "premium": false,
+            "name": "Водитель автомобиля персональный",
+            "department": null,
+            "has_test": false,
+            "response_letter_required": false,
+            "area": {
+                "id": "2",
+                "name": "Санкт-Петербург",
+                "url": "https://api.hh.ru/areas/2"
+            },
+            "salary": {
+                "from": 65000,
+                "to": null,
+                "currency": "RUR",
+                "gross": false
+            },
+            "type": {
+                "id": "open",
+                "name": "Открытая"
+            },
+            "address": {
+                "city": "Санкт-Петербург",
+                "street": "аэродром Левашово",
+                "building": null,
+                "lat": 60.090118,
+                "lng": 30.19562,
+                "description": null,
+                "raw": "Санкт-Петербург, аэродром Левашово",
+                "metro": null,
+                "metro_stations": [],
+                "id": "14120804"
+            },
+            "response_url": null,
+            "sort_point_distance": null,
+            "published_at": "2023-11-28T14:07:21+0300",
+            "created_at": "2023-11-28T14:07:21+0300",
+            "archived": false,
+            "apply_alternate_url": "https://hh.ru/applicant/vacancy_response?vacancyId=90042655",
+            "insider_interview": null,
+            "url": "https://api.hh.ru/vacancies/90042655?host=hh.ru",
+            "alternate_url": "https://hh.ru/vacancy/90042655",
+            "relations": [],
+            "employer": {
+                "id": "4565267",
+                "name": "Авиапредприятие Газпром авиа",
+                "url": "https://api.hh.ru/employers/4565267",
+                "alternate_url": "https://hh.ru/employer/4565267",
+                "logo_urls": null,
+                "vacancies_url": "https://api.hh.ru/vacancies?employer_id=4565267",
+                "accredited_it_employer": false,
+                "trusted": true
+            },
+            "snippet": {
+                "requirement": "Наличие прав категории В. Аккуратное и безопасное вождение (опыт от 6 лет). Отличное знание города и области. Ищем ответственного, аккуратного...",
+                "responsibility": "Личный <highlighttext>водитель</highlighttext> руководителя. Содержание автомобиля в чистоте и порядке."
+            },
+            "contacts": null,
+            "schedule": {
+                "id": "fullDay",
+                "name": "Полный день"
+            },
+            "working_days": [],
+            "working_time_intervals": [],
+            "working_time_modes": [],
+            "accept_temporary": false,
+            "professional_roles": [
+                {
+                    "id": "21",
+                    "name": "Водитель"
+                }
+            ],
+            "accept_incomplete_resumes": true,
+            "experience": {
+                "id": "moreThan6",
+                "name": "Более 6 лет"
+            },
+            "employment": {
+                "id": "full",
+                "name": "Полная занятость"
+            },
+            "adv_response_url": null,
+            "is_adv_vacancy": false,
+            "adv_context": null
+        },
+        {
+            "id": "90028497",
+            "premium": false,
+            "name": "Водитель персональный",
+            "department": null,
+            "has_test": false,
+            "response_letter_required": false,
+            "area": {
+                "id": "1",
+                "name": "Москва",
+                "url": "https://api.hh.ru/areas/1"
+            },
+            "salary": {
+                "from": 80000,
+                "to": 100000,
+                "currency": "RUR",
+                "gross": false
+            },
+            "type": {
+                "id": "open",
+                "name": "Открытая"
+            },
+            "address": null,
+            "response_url": null,
+            "sort_point_distance": null,
+            "published_at": "2023-11-28T11:24:03+0300",
+            "created_at": "2023-11-28T11:24:03+0300",
+            "archived": false,
+            "apply_alternate_url": "https://hh.ru/applicant/vacancy_response?vacancyId=90028497",
+            "show_logo_in_search": null,
+            "insider_interview": null,
+            "url": "https://api.hh.ru/vacancies/90028497?host=hh.ru",
+            "alternate_url": "https://hh.ru/vacancy/90028497",
+            "relations": [],
+            "employer": {
+                "id": "9879546",
+                "name": "МОНЕРА",
+                "url": "https://api.hh.ru/employers/9879546",
+                "alternate_url": "https://hh.ru/employer/9879546",
+                "logo_urls": {
+                    "240": "https://hhcdn.ru/employer-logo/6044558.png",
+                    "90": "https://hhcdn.ru/employer-logo/6044557.png",
+                    "original": "https://hhcdn.ru/employer-logo-original/1105988.png"
+                },
+                "vacancies_url": "https://api.hh.ru/vacancies?employer_id=9879546",
+                "accredited_it_employer": false,
+                "trusted": true
+            },
+            "snippet": {
+                "requirement": "Наличие образования. Стаж вождения более 5 лет. Водительские права категории В. Умение соблюдать субординацию и культуру речи. Аккуратный и опрятный...",
+                "responsibility": "Профессиональное вождение автомобиля. Соблюдение ПДД и обеспечение безопасности вождения. Выбор оптимального маршрута, знание г. Москвы и МО. Поддержание автомобиля в..."
+            },
+            "contacts": null,
+            "schedule": {
+                "id": "fullDay",
+                "name": "Полный день"
+            },
+            "working_days": [],
+            "working_time_intervals": [],
+            "working_time_modes": [],
+            "accept_temporary": false,
+            "professional_roles": [
+                {
+                    "id": "21",
+                    "name": "Водитель"
+                }
+            ],
+            "accept_incomplete_resumes": false,
+            "experience": {
+                "id": "between3And6",
+                "name": "От 3 до 6 лет"
+            },
+            "employment": {
+                "id": "full",
+                "name": "Полная занятость"
+            },
+            "adv_response_url": null,
+            "is_adv_vacancy": false,
+            "adv_context": null
+        },
+        {
+            "id": "89190076",
+            "premium": false,
+            "name": "Водитель автомобиля персональный",
+            "department": null,
+            "has_test": false,
+            "response_letter_required": false,
+            "area": {
+                "id": "159",
+                "name": "Астана",
+                "url": "https://api.hh.ru/areas/159"
+            },
+            "salary": {
+                "from": 400000,
+                "to": null,
+                "currency": "KZT",
+                "gross": false
+            },
+            "type": {
+                "id": "open",
+                "name": "Открытая"
+            },
+            "address": null,
+            "response_url": null,
+            "sort_point_distance": null,
+            "published_at": "2023-11-08T11:36:33+0300",
+            "created_at": "2023-11-08T11:36:33+0300",
+            "archived": false,
+            "apply_alternate_url": "https://hh.ru/applicant/vacancy_response?vacancyId=89190076",
+            "show_logo_in_search": null,
+            "insider_interview": null,
+            "url": "https://api.hh.ru/vacancies/89190076?host=hh.ru",
+            "alternate_url": "https://hh.ru/vacancy/89190076",
+            "relations": [],
+            "employer": {
+                "id": "1591043",
+                "name": "Норд ТЭК",
+                "url": "https://api.hh.ru/employers/1591043",
+                "alternate_url": "https://hh.ru/employer/1591043",
+                "logo_urls": {
+                    "240": "https://hhcdn.ru/employer-logo/1641863.jpeg",
+                    "original": "https://hhcdn.ru/employer-logo-original/299872.jpg",
+                    "90": "https://hhcdn.ru/employer-logo/1641862.jpeg"
+                },
+                "vacancies_url": "https://api.hh.ru/vacancies?employer_id=1591043",
+                "accredited_it_employer": false,
+                "trusted": true
+            },
+            "snippet": {
+                "requirement": "Терпеливость и стрессоустойчивость. Внимательность и вежливость. Личный автомобиль в отличном состоянии.",
+                "responsibility": "Осуществление перевозок нанимателя, сотрудников на личном автомобиле. Выполнение поручений руководителя. Своевременная подача автомобиля к назначенному работодателем месту и времени. "
+            },
+            "contacts": null,
+            "schedule": {
+                "id": "fullDay",
+                "name": "Полный день"
+            },
+            "working_days": [],
+            "working_time_intervals": [],
+            "working_time_modes": [],
+            "accept_temporary": false,
+            "professional_roles": [
+                {
+                    "id": "21",
+                    "name": "Водитель"
+                }
+            ],
+            "accept_incomplete_resumes": true,
+            "experience": {
+                "id": "moreThan6",
+                "name": "Более 6 лет"
+            },
+            "employment": {
+                "id": "full",
+                "name": "Полная занятость"
+            },
+            "adv_response_url": null,
+            "is_adv_vacancy": false,
+            "adv_context": null
+        },
+        {
+            "id": "89910764",
+            "premium": false,
+            "name": "Личный водитель",
+            "department": null,
+            "has_test": false,
+            "response_letter_required": false,
+            "area": {
+                "id": "1002",
+                "name": "Минск",
+                "url": "https://api.hh.ru/areas/1002"
+            },
+            "salary": {
+                "from": null,
+                "to": 1500,
+                "currency": "BYR",
+                "gross": false
+            },
+            "type": {
+                "id": "open",
+                "name": "Открытая"
+            },
+            "address": {
+                "city": "Минск",
+                "street": "улица Максима Богдановича",
+                "building": null,
+                "lat": 53.929129,
+                "lng": 27.57474,
+                "description": null,
+                "raw": "Минск, улица Максима Богдановича",
+                "metro": null,
+                "metro_stations": [],
+                "id": "809559"
+            },
+            "response_url": null,
+            "sort_point_distance": null,
+            "published_at": "2023-11-25T20:45:26+0300",
+            "created_at": "2023-11-25T20:45:26+0300",
+            "archived": false,
+            "apply_alternate_url": "https://hh.ru/applicant/vacancy_response?vacancyId=89910764",
+            "insider_interview": null,
+            "url": "https://api.hh.ru/vacancies/89910764?host=hh.ru",
+            "alternate_url": "https://hh.ru/vacancy/89910764",
+            "relations": [],
+            "employer": {
+                "id": "2821329",
+                "name": "КАДМ Плюс",
+                "url": "https://api.hh.ru/employers/2821329",
+                "alternate_url": "https://hh.ru/employer/2821329",
+                "logo_urls": null,
+                "vacancies_url": "https://api.hh.ru/vacancies?employer_id=2821329",
+                "accredited_it_employer": false,
+                "trusted": true
+            },
+            "snippet": {
+                "requirement": "Оперативность, аккуратность, ответственность. Наличие водительской категории В.",
+                "responsibility": "Перевозка, погрузка/разгрузка, выполнение поручений, получение товара. Приветствуется хорошее знание города и способность самостоятельно устранять неполадки."
+            },
+            "contacts": null,
+            "schedule": {
+                "id": "flexible",
+                "name": "Гибкий график"
+            },
+            "working_days": [],
+            "working_time_intervals": [],
+            "working_time_modes": [],
+            "accept_temporary": false,
+            "professional_roles": [
+                {
+                    "id": "21",
+                    "name": "Водитель"
+                }
+            ],
+            "accept_incomplete_resumes": true,
+            "experience": {
+                "id": "between3And6",
+                "name": "От 3 до 6 лет"
+            },
+            "employment": {
+                "id": "full",
+                "name": "Полная занятость"
+            },
+            "adv_response_url": null,
+            "is_adv_vacancy": false,
+            "adv_context": null
+        },
+        {
+            "id": "89951491",
+            "premium": false,
+            "name": "Персональный водитель",
+            "department": null,
+            "has_test": false,
+            "response_letter_required": false,
+            "area": {
+                "id": "160",
+                "name": "Алматы",
+                "url": "https://api.hh.ru/areas/160"
+            },
+            "salary": {
+                "from": 460000,
+                "to": 460000,
+                "currency": "KZT",
+                "gross": true
+            },
+            "type": {
+                "id": "open",
+                "name": "Открытая"
+            },
+            "address": {
+                "city": "Алматы",
+                "street": "проспект Назарбаева",
+                "building": "100",
+                "lat": 43.25794,
+                "lng": 76.946678,
+                "description": null,
+                "raw": "Алматы, проспект Назарбаева, 100",
+                "metro": null,
+                "metro_stations": [],
+                "id": "1757594"
+            },
+            "response_url": null,
+            "sort_point_distance": null,
+            "published_at": "2023-11-27T08:02:20+0300",
+            "created_at": "2023-11-27T08:02:20+0300",
+            "archived": false,
+            "apply_alternate_url": "https://hh.ru/applicant/vacancy_response?vacancyId=89951491",
+            "show_logo_in_search": null,
+            "insider_interview": null,
+            "url": "https://api.hh.ru/vacancies/89951491?host=hh.ru",
+            "alternate_url": "https://hh.ru/vacancy/89951491",
+            "relations": [],
+            "employer": {
+                "id": "24761",
+                "name": "ForteBank",
+                "url": "https://api.hh.ru/employers/24761",
+                "alternate_url": "https://hh.ru/employer/24761",
+                "logo_urls": {
+                    "240": "https://hhcdn.ru/employer-logo/2389553.png",
+                    "90": "https://hhcdn.ru/employer-logo/2389552.png",
+                    "original": "https://hhcdn.ru/employer-logo-original/486925.png"
+                },
+                "vacancies_url": "https://api.hh.ru/vacancies?employer_id=24761",
+                "accredited_it_employer": false,
+                "trusted": true
+            },
+            "snippet": {
+                "requirement": "Стаж вождения от 5 лет. Знание города. Наличие личного транспорта (автомобиль бизнес-класса). Наличие действующего ИП.",
+                "responsibility": "Обеспечение своевременного и безопасного передвижения по г.Алматы и за пределами города. Заблаговременное планирование оптимального маршрута движения. Содержание автомобиля в надлежащем..."
+            },
+            "contacts": null,
+            "schedule": {
+                "id": "fullDay",
+                "name": "Полный день"
+            },
+            "working_days": [],
+            "working_time_intervals": [],
+            "working_time_modes": [],
+            "accept_temporary": false,
+            "professional_roles": [
+                {
+                    "id": "21",
+                    "name": "Водитель"
+                }
+            ],
+            "accept_incomplete_resumes": true,
+            "experience": {
+                "id": "between3And6",
+                "name": "От 3 до 6 лет"
+            },
+            "employment": {
+                "id": "full",
+                "name": "Полная занятость"
+            },
+            "adv_response_url": null,
+            "is_adv_vacancy": false,
+            "adv_context": null
+        },
+        {
+            "id": "90013747",
+            "premium": false,
+            "name": "Водитель",
+            "department": null,
+            "has_test": false,
+            "response_letter_required": false,
+            "area": {
+                "id": "159",
+                "name": "Астана",
+                "url": "https://api.hh.ru/areas/159"
+            },
+            "salary": {
+                "from": 250000,
+                "to": 300000,
+                "currency": "KZT",
+                "gross": false
+            },
+            "type": {
+                "id": "open",
+                "name": "Открытая"
+            },
+            "address": {
+                "city": "Нур-Султан (Астана)",
+                "street": "191-я улица",
+                "building": "51",
+                "lat": 51.227196,
+                "lng": 71.397946,
+                "description": null,
+                "raw": "Нур-Султан (Астана), 191-я улица, 51",
+                "metro": null,
+                "metro_stations": [],
+                "id": "419137"
+            },
+            "response_url": null,
+            "sort_point_distance": null,
+            "published_at": "2023-11-28T08:56:10+0300",
+            "created_at": "2023-11-28T08:56:10+0300",
+            "archived": false,
+            "apply_alternate_url": "https://hh.ru/applicant/vacancy_response?vacancyId=90013747",
+            "show_logo_in_search": null,
+            "insider_interview": null,
+            "url": "https://api.hh.ru/vacancies/90013747?host=hh.ru",
+            "alternate_url": "https://hh.ru/vacancy/90013747",
+            "relations": [],
+            "employer": {
+                "id": "1524467",
+                "name": "AZMT",
+                "url": "https://api.hh.ru/employers/1524467",
+                "alternate_url": "https://hh.ru/employer/1524467",
+                "logo_urls": {
+                    "original": "https://hhcdn.ru/employer-logo-original/1143662.png",
+                    "240": "https://hhcdn.ru/employer-logo/6195222.png",
+                    "90": "https://hhcdn.ru/employer-logo/6195221.png"
+                },
+                "vacancies_url": "https://api.hh.ru/vacancies?employer_id=1524467",
+                "accredited_it_employer": false,
+                "trusted": true
+            },
+            "snippet": {
+                "requirement": "Водительское удостоверение категории – В; D1.",
+                "responsibility": "Содержать транспортное средство в надлежащем техническом и чистом состоянии. Аккуратное вождение автомобиля, отличное знание города. Личные поручения руководителя. "
+            },
+            "contacts": null,
+            "schedule": {
+                "id": "fullDay",
+                "name": "Полный день"
+            },
+            "working_days": [],
+            "working_time_intervals": [],
+            "working_time_modes": [],
+            "accept_temporary": false,
+            "professional_roles": [
+                {
+                    "id": "21",
+                    "name": "Водитель"
+                }
+            ],
+            "accept_incomplete_resumes": true,
+            "experience": {
                 "id": "noExperience",
                 "name": "Нет опыта"
             },
@@ -97,23 +1008,93 @@
             "adv_context": null
         },
         {
-            "id": "88094399",
+            "id": "90032851",
             "premium": false,
-            "name": "Менеджер по продажам металлопроката (без поиска)",
+            "name": "Водитель семьи",
             "department": null,
             "has_test": false,
             "response_letter_required": false,
             "area": {
-                "id": "3",
-                "name": "Екатеринбург",
-                "url": "https://api.hh.ru/areas/3"
+                "id": "89",
+                "name": "Тверь",
+                "url": "https://api.hh.ru/areas/89"
             },
             "salary": {
-                "from": 100000,
-                "to": 140000,
+                "from": 60000,
+                "to": 80000,
                 "currency": "RUR",
-                "gross": false
+                "gross": true
             },
+            "type": {
+                "id": "open",
+                "name": "Открытая"
+            },
+            "address": null,
+            "response_url": null,
+            "sort_point_distance": null,
+            "published_at": "2023-11-28T12:18:35+0300",
+            "created_at": "2023-11-28T12:18:35+0300",
+            "archived": false,
+            "apply_alternate_url": "https://hh.ru/applicant/vacancy_response?vacancyId=90032851",
+            "insider_interview": null,
+            "url": "https://api.hh.ru/vacancies/90032851?host=hh.ru",
+            "alternate_url": "https://hh.ru/vacancy/90032851",
+            "relations": [],
+            "employer": {
+                "id": "10585181",
+                "name": "Александров Сергей Викторович",
+                "url": "https://api.hh.ru/employers/10585181",
+                "alternate_url": "https://hh.ru/employer/10585181",
+                "logo_urls": null,
+                "vacancies_url": "https://api.hh.ru/vacancies?employer_id=10585181",
+                "accredited_it_employer": false,
+                "trusted": false
+            },
+            "snippet": {
+                "requirement": "Опыт работы. Опрятность, вежливость, пунктуальность и ответственность.",
+                "responsibility": "Перевозка семьи. Перевозка детей и взрослых."
+            },
+            "contacts": null,
+            "schedule": {
+                "id": "fullDay",
+                "name": "Полный день"
+            },
+            "working_days": [],
+            "working_time_intervals": [],
+            "working_time_modes": [],
+            "accept_temporary": false,
+            "professional_roles": [
+                {
+                    "id": "21",
+                    "name": "Водитель"
+                }
+            ],
+            "accept_incomplete_resumes": true,
+            "experience": {
+                "id": "between1And3",
+                "name": "От 1 года до 3 лет"
+            },
+            "employment": {
+                "id": "full",
+                "name": "Полная занятость"
+            },
+            "adv_response_url": null,
+            "is_adv_vacancy": false,
+            "adv_context": null
+        },
+        {
+            "id": "90039145",
+            "premium": false,
+            "name": "Офисный водитель",
+            "department": null,
+            "has_test": false,
+            "response_letter_required": false,
+            "area": {
+                "id": "1",
+                "name": "Москва",
+                "url": "https://api.hh.ru/areas/1"
+            },
+            "salary": null,
             "type": {
                 "id": "open",
                 "name": "Открытая"
@@ -125,40 +1106,39 @@
                 "lat": null,
                 "lng": null,
                 "description": null,
-                "raw": "Екатеринбург, улица Мамина-Сибиряка, 52 оф. 406",
+                "raw": "Москва, Олимпийский проспект, д.14",
                 "metro": null,
                 "metro_stations": [],
-                "id": "167158"
+                "id": "303127"
             },
             "response_url": null,
             "sort_point_distance": null,
-            "published_at": "2023-11-11T19:02:41+0300",
-            "created_at": "2023-11-11T19:02:41+0300",
+            "published_at": "2023-11-28T13:18:44+0300",
+            "created_at": "2023-11-28T13:18:44+0300",
             "archived": false,
-            "apply_alternate_url": "https://hh.ru/applicant/vacancy_response?vacancyId=88094399",
+            "apply_alternate_url": "https://hh.ru/applicant/vacancy_response?vacancyId=90039145",
             "show_logo_in_search": null,
             "insider_interview": null,
-            "url": "https://api.hh.ru/vacancies/88094399?host=hh.ru",
-            "alternate_url": "https://hh.ru/vacancy/88094399",
+            "url": "https://api.hh.ru/vacancies/90039145?host=hh.ru",
+            "alternate_url": "https://hh.ru/vacancy/90039145",
             "relations": [],
             "employer": {
-                "id": "1120099",
-                "name": "Метало-Промышленная Компания",
-                "url": "https://api.hh.ru/employers/1120099",
-                "alternate_url": "https://hh.ru/employer/1120099",
+                "id": "1947",
+                "name": "КРЕДИТ ЕВРОПА БАНК",
+                "url": "https://api.hh.ru/employers/1947",
+                "alternate_url": "https://hh.ru/employer/1947",
                 "logo_urls": {
-                    "original": "https://hhcdn.ru/employer-logo-original/580487.jpg",
-                    "240": "https://hhcdn.ru/employer-logo/2763204.jpeg",
-                    "90": "https://hhcdn.ru/employer-logo/2763203.jpeg"
+                    "original": "https://hhcdn.ru/employer-logo-original/232625.jpg",
+                    "90": "https://hhcdn.ru/employer-logo/309231.jpeg",
+                    "240": "https://hhcdn.ru/employer-logo/382088.jpeg"
                 },
-                "vacancies_url": "https://api.hh.ru/vacancies?employer_id=1120099",
+                "vacancies_url": "https://api.hh.ru/vacancies?employer_id=1947",
                 "accredited_it_employer": false,
                 "trusted": true
             },
-            "personal_data_resale": false,
             "snippet": {
-                "requirement": "Наша работа это не стометровка, а длинный марафон, где приходится постоянно ,, Учиться , учиться и ещё раз учиться ,,.. Входной билет в...",
-                "responsibility": "Работа монотонная, (нужно выставлять много счетов, путем математических расчетов и устанавливать коммуникацию по телефону с клиентом). Контролировать документооборот по сделке..."
+                "requirement": "Официальный стаж работы <highlighttext>водителем</highlighttext> от 5 лет. Медицинская водительская справка. Образование от среднего профессионального. Готовность к ненормированному рабочему дню. ",
+                "responsibility": "Доставка сотрудников банка на встречи с партнерами. Самостоятельное посещение партнеров банка для приема / передачи документов. Территория поездок - Москва и Московская..."
             },
             "contacts": null,
             "schedule": {
@@ -171,95 +1151,8 @@
             "accept_temporary": false,
             "professional_roles": [
                 {
-                    "id": "70",
-                    "name": "Менеджер по продажам, менеджер по работе с клиентами"
-                }
-            ],
-            "accept_incomplete_resumes": true,
-            "experience": {
-                "id": "noExperience",
-                "name": "Нет опыта"
-            },
-            "employment": {
-                "id": "full",
-                "name": "Полная занятость"
-            },
-            "adv_response_url": null,
-            "is_adv_vacancy": false,
-            "adv_context": null
-        },
-        {
-            "id": "89325872",
-            "premium": false,
-            "name": "Диспетчер-логист грузоперевозок по США",
-            "department": null,
-            "has_test": false,
-            "response_letter_required": false,
-            "area": {
-                "id": "2759",
-                "name": "Ташкент",
-                "url": "https://api.hh.ru/areas/2759"
-            },
-            "salary": {
-                "from": 5000000,
-                "to": null,
-                "currency": "UZS",
-                "gross": false
-            },
-            "type": {
-                "id": "open",
-                "name": "Открытая"
-            },
-            "address": {
-                "city": "Ташкент",
-                "street": null,
-                "building": null,
-                "lat": 41.311158,
-                "lng": 69.279737,
-                "description": null,
-                "raw": "Ташкент",
-                "metro": null,
-                "metro_stations": [],
-                "id": "14437615"
-            },
-            "response_url": null,
-            "sort_point_distance": null,
-            "published_at": "2023-11-11T01:30:32+0300",
-            "created_at": "2023-11-11T01:30:32+0300",
-            "archived": false,
-            "apply_alternate_url": "https://hh.ru/applicant/vacancy_response?vacancyId=89325872",
-            "insider_interview": null,
-            "url": "https://api.hh.ru/vacancies/89325872?host=hh.ru",
-            "alternate_url": "https://hh.ru/vacancy/89325872",
-            "relations": [],
-            "employer": {
-                "id": "10416573",
-                "name": "UniStaff ProGroup",
-                "url": "https://api.hh.ru/employers/10416573",
-                "alternate_url": "https://hh.ru/employer/10416573",
-                "logo_urls": null,
-                "vacancies_url": "https://api.hh.ru/vacancies?employer_id=10416573",
-                "accredited_it_employer": false,
-                "trusted": true
-            },
-            "personal_data_resale": false,
-            "snippet": {
-                "requirement": "Отличное знание АНГЛИЙСКОГО языка (IELTS 6,5+). Русский язык. Аналитический склад ума и умение принимать правильные решения в короткие...",
-                "responsibility": "Диспетчер Грузоперевозок по США."
-            },
-            "contacts": null,
-            "schedule": {
-                "id": "fullDay",
-                "name": "Полный день"
-            },
-            "working_days": [],
-            "working_time_intervals": [],
-            "working_time_modes": [],
-            "accept_temporary": false,
-            "professional_roles": [
-                {
-                    "id": "39",
-                    "name": "Диспетчер"
+                    "id": "21",
+                    "name": "Водитель"
                 }
             ],
             "accept_incomplete_resumes": false,
@@ -276,9 +1169,9 @@
             "adv_context": null
         },
         {
-            "id": "89220194",
+            "id": "90029224",
             "premium": false,
-            "name": "Ведущий менеджер по продажам",
+            "name": "Водитель",
             "department": null,
             "has_test": false,
             "response_letter_required": false,
@@ -287,12 +1180,7 @@
                 "name": "Москва",
                 "url": "https://api.hh.ru/areas/1"
             },
-            "salary": {
-                "from": 150000,
-                "to": null,
-                "currency": "RUR",
-                "gross": false
-            },
+            "salary": null,
             "type": {
                 "id": "open",
                 "name": "Открытая"
@@ -300,33 +1188,32 @@
             "address": null,
             "response_url": null,
             "sort_point_distance": null,
-            "published_at": "2023-11-08T17:40:23+0300",
-            "created_at": "2023-11-08T17:40:23+0300",
+            "published_at": "2023-11-28T11:33:34+0300",
+            "created_at": "2023-11-28T11:33:34+0300",
             "archived": false,
-            "apply_alternate_url": "https://hh.ru/applicant/vacancy_response?vacancyId=89220194",
+            "apply_alternate_url": "https://hh.ru/applicant/vacancy_response?vacancyId=90029224",
             "show_logo_in_search": null,
             "insider_interview": null,
-            "url": "https://api.hh.ru/vacancies/89220194?host=hh.ru",
-            "alternate_url": "https://hh.ru/vacancy/89220194",
+            "url": "https://api.hh.ru/vacancies/90029224?host=hh.ru",
+            "alternate_url": "https://hh.ru/vacancy/90029224",
             "relations": [],
             "employer": {
-                "id": "1551312",
-                "name": "UP business",
-                "url": "https://api.hh.ru/employers/1551312",
-                "alternate_url": "https://hh.ru/employer/1551312",
+                "id": "645490",
+                "name": "СФЕРА",
+                "url": "https://api.hh.ru/employers/645490",
+                "alternate_url": "https://hh.ru/employer/645490",
                 "logo_urls": {
-                    "90": "https://hhcdn.ru/employer-logo/2981572.jpeg",
-                    "240": "https://hhcdn.ru/employer-logo/2981573.jpeg",
-                    "original": "https://hhcdn.ru/employer-logo-original/635105.jpg"
+                    "original": "https://hhcdn.ru/employer-logo-original/919547.png",
+                    "90": "https://hhcdn.ru/employer-logo/4118764.png",
+                    "240": "https://hhcdn.ru/employer-logo/4118765.png"
                 },
-                "vacancies_url": "https://api.hh.ru/vacancies?employer_id=1551312",
+                "vacancies_url": "https://api.hh.ru/vacancies?employer_id=645490",
                 "accredited_it_employer": false,
                 "trusted": true
             },
-            "personal_data_resale": false,
             "snippet": {
-                "requirement": "Опыт работы на аналогичной позиции от 2-х лет. Опыт работы в проектных продажах более 1,5 лет. ",
-                "responsibility": "Пост-продажное сопровождение, поддержка клиента при возникновении проблем. Взаимодействие с техническим отделом и <highlighttext>логистами</highlighttext>. Выполнение плана по продажам. "
+                "requirement": "Опыт работы от 3-х лет персональным или офисным <highlighttext>водителем</highlighttext>. Наличие удостоверения <highlighttext>водителя</highlighttext> категории \"В\". Отличное знание Москвы и области.",
+                "responsibility": "Подача автомобиля в нужное время. Перевозка сотрудников компании. Работа с документами. Поддержание вверенного транспорта в чистоте и порядке."
             },
             "contacts": null,
             "schedule": {
@@ -339,103 +1226,11 @@
             "accept_temporary": false,
             "professional_roles": [
                 {
-                    "id": "70",
-                    "name": "Менеджер по продажам, менеджер по работе с клиентами"
+                    "id": "21",
+                    "name": "Водитель"
                 }
             ],
-            "accept_incomplete_resumes": false,
-            "experience": {
-                "id": "between1And3",
-                "name": "От 1 года до 3 лет"
-            },
-            "employment": {
-                "id": "full",
-                "name": "Полная занятость"
-            },
-            "adv_response_url": null,
-            "is_adv_vacancy": false,
-            "adv_context": null
-        },
-        {
-            "id": "89823094",
-            "premium": false,
-            "name": "Специалист по выписке ттн - логист",
-            "department": null,
-            "has_test": false,
-            "response_letter_required": false,
-            "area": {
-                "id": "1002",
-                "name": "Минск",
-                "url": "https://api.hh.ru/areas/1002"
-            },
-            "salary": {
-                "from": 1800,
-                "to": null,
-                "currency": "BYR",
-                "gross": true
-            },
-            "type": {
-                "id": "open",
-                "name": "Открытая"
-            },
-            "address": {
-                "city": "Минск",
-                "street": "улица Бабушкина",
-                "building": "6а",
-                "lat": 53.81962,
-                "lng": 27.57907,
-                "description": null,
-                "raw": "Минск, улица Бабушкина, 6а",
-                "metro": null,
-                "metro_stations": [],
-                "id": "184010"
-            },
-            "response_url": null,
-            "sort_point_distance": null,
-            "published_at": "2023-11-23T10:38:19+0300",
-            "created_at": "2023-11-23T10:38:19+0300",
-            "archived": false,
-            "apply_alternate_url": "https://hh.ru/applicant/vacancy_response?vacancyId=89823094",
-            "show_logo_in_search": null,
-            "insider_interview": null,
-            "url": "https://api.hh.ru/vacancies/89823094?host=hh.ru",
-            "alternate_url": "https://hh.ru/vacancy/89823094",
-            "relations": [],
-            "employer": {
-                "id": "782050",
-                "name": "Мон Ами",
-                "url": "https://api.hh.ru/employers/782050",
-                "alternate_url": "https://hh.ru/employer/782050",
-                "logo_urls": {
-                    "90": "https://hhcdn.ru/employer-logo/751601.png",
-                    "240": "https://hhcdn.ru/employer-logo/751602.png",
-                    "original": "https://hhcdn.ru/employer-logo-original/138608.gif"
-                },
-                "vacancies_url": "https://api.hh.ru/vacancies?employer_id=782050",
-                "accredited_it_employer": false,
-                "trusted": true
-            },
-            "personal_data_resale": false,
-            "snippet": {
-                "requirement": "Знание программ: Microsoft Excel, Windows, владение пакетом Microsoft Office, - Обязательно ! Грамотная речь. Стрессоустойчивость в общении с клиентами. Хорошие коммуникативные навыки.",
-                "responsibility": "Оформление счет-фактур, внесение товара в 1С, печать ТН/ТТН - работа в 1С предприятие - версия 7.7). "
-            },
-            "contacts": null,
-            "schedule": {
-                "id": "fullDay",
-                "name": "Полный день"
-            },
-            "working_days": [],
-            "working_time_intervals": [],
-            "working_time_modes": [],
-            "accept_temporary": false,
-            "professional_roles": [
-                {
-                    "id": "88",
-                    "name": "Офис-менеджер"
-                }
-            ],
-            "accept_incomplete_resumes": false,
+            "accept_incomplete_resumes": true,
             "experience": {
                 "id": "between3And6",
                 "name": "От 3 до 6 лет"
@@ -449,291 +1244,20 @@
             "adv_context": null
         },
         {
-            "id": "89991573",
-            "premium": false,
-            "name": "Кадровик-секретарь директора",
-            "department": null,
-            "has_test": false,
-            "response_letter_required": false,
-            "area": {
-                "id": "70",
-                "name": "Оренбург",
-                "url": "https://api.hh.ru/areas/70"
-            },
-            "salary": {
-                "from": 35000,
-                "to": 37000,
-                "currency": "RUR",
-                "gross": false
-            },
-            "type": {
-                "id": "open",
-                "name": "Открытая"
-            },
-            "address": {
-                "city": "Оренбург",
-                "street": "Телевизионный переулок",
-                "building": "3",
-                "lat": 51.771621,
-                "lng": 55.114643,
-                "description": null,
-                "raw": "Оренбург, Телевизионный переулок, 3",
-                "metro": null,
-                "metro_stations": [],
-                "id": "14393914"
-            },
-            "response_url": null,
-            "sort_point_distance": null,
-            "published_at": "2023-11-27T15:34:06+0300",
-            "created_at": "2023-11-27T15:34:06+0300",
-            "archived": false,
-            "apply_alternate_url": "https://hh.ru/applicant/vacancy_response?vacancyId=89991573",
-            "insider_interview": null,
-            "url": "https://api.hh.ru/vacancies/89991573?host=hh.ru",
-            "alternate_url": "https://hh.ru/vacancy/89991573",
-            "relations": [],
-            "employer": {
-                "id": "10381916",
-                "name": "ФГУП ВГТРК ГТРК Оренбург",
-                "url": "https://api.hh.ru/employers/10381916",
-                "alternate_url": "https://hh.ru/employer/10381916",
-                "logo_urls": null,
-                "vacancies_url": "https://api.hh.ru/vacancies?employer_id=10381916",
-                "accredited_it_employer": false,
-                "trusted": true
-            },
-            "personal_data_resale": false,
-            "snippet": {
-                "requirement": "1) Знание кадрового делопроизводства (105 чел). 2) Знание 1С \"зарплата и кадры\".",
-                "responsibility": "4) Ведение делопроизводства (реестр договоров). 5) Встреча гостей директора."
-            },
-            "contacts": null,
-            "schedule": {
-                "id": "fullDay",
-                "name": "Полный день"
-            },
-            "working_days": [],
-            "working_time_intervals": [],
-            "working_time_modes": [],
-            "accept_temporary": false,
-            "professional_roles": [
-                {
-                    "id": "117",
-                    "name": "Специалист по кадрам"
-                }
-            ],
-            "accept_incomplete_resumes": false,
-            "experience": {
-                "id": "between1And3",
-                "name": "От 1 года до 3 лет"
-            },
-            "employment": {
-                "id": "full",
-                "name": "Полная занятость"
-            },
-            "adv_response_url": null,
-            "is_adv_vacancy": false,
-            "adv_context": null
-        },
-        {
-            "id": "89885802",
-            "premium": false,
-            "name": "Менеджер по документообороту",
-            "department": null,
-            "has_test": false,
-            "response_letter_required": false,
-            "area": {
-                "id": "43",
-                "name": "Калуга",
-                "url": "https://api.hh.ru/areas/43"
-            },
-            "salary": {
-                "from": 55000,
-                "to": null,
-                "currency": "RUR",
-                "gross": false
-            },
-            "type": {
-                "id": "open",
-                "name": "Открытая"
-            },
-            "address": {
-                "city": "Калуга",
-                "street": "1-й Автомобильный проезд",
-                "building": "3",
-                "lat": 54.564387,
-                "lng": 36.341542,
-                "description": null,
-                "raw": "Калуга, 1-й Автомобильный проезд, 3",
-                "metro": null,
-                "metro_stations": [],
-                "id": "14743227"
-            },
-            "response_url": null,
-            "sort_point_distance": null,
-            "published_at": "2023-11-24T13:41:56+0300",
-            "created_at": "2023-11-24T13:41:56+0300",
-            "archived": false,
-            "apply_alternate_url": "https://hh.ru/applicant/vacancy_response?vacancyId=89885802",
-            "show_logo_in_search": null,
-            "insider_interview": null,
-            "url": "https://api.hh.ru/vacancies/89885802?host=hh.ru",
-            "alternate_url": "https://hh.ru/vacancy/89885802",
-            "relations": [],
-            "employer": {
-                "id": "2433292",
-                "name": "Регион-Экспресс",
-                "url": "https://api.hh.ru/employers/2433292",
-                "alternate_url": "https://hh.ru/employer/2433292",
-                "logo_urls": {
-                    "240": "https://hhcdn.ru/employer-logo/2756304.jpeg",
-                    "90": "https://hhcdn.ru/employer-logo/2756303.jpeg",
-                    "original": "https://hhcdn.ru/employer-logo-original/578758.jpg"
-                },
-                "vacancies_url": "https://api.hh.ru/vacancies?employer_id=2433292",
-                "accredited_it_employer": false,
-                "trusted": true
-            },
-            "personal_data_resale": false,
-            "snippet": {
-                "requirement": "Опыт работы с аналогичным функционалом от 1года/бухгалтером по первичной документации/<highlighttext>менеджером</highlighttext> <highlighttext>отдела</highlighttext> <highlighttext>логистики</highlighttext>. Опыт работы в 1С...",
-                "responsibility": "Обработка транспортной документации (заказы на ТС, счета, УПД). Занесение данных по работам, оплатам, доходам, тарифам работников, расходам в программы учета..."
-            },
-            "contacts": null,
-            "schedule": {
-                "id": "fullDay",
-                "name": "Полный день"
-            },
-            "working_days": [],
-            "working_time_intervals": [],
-            "working_time_modes": [],
-            "accept_temporary": false,
-            "professional_roles": [
-                {
-                    "id": "67",
-                    "name": "Менеджер по логистике, менеджер по ВЭД"
-                }
-            ],
-            "accept_incomplete_resumes": false,
-            "experience": {
-                "id": "between1And3",
-                "name": "От 1 года до 3 лет"
-            },
-            "employment": {
-                "id": "full",
-                "name": "Полная занятость"
-            },
-            "adv_response_url": null,
-            "is_adv_vacancy": false,
-            "adv_context": null
-        },
-        {
-            "id": "89630756",
-            "premium": false,
-            "name": "Водитель офисный",
-            "department": null,
-            "has_test": false,
-            "response_letter_required": true,
-            "area": {
-                "id": "1",
-                "name": "Москва",
-                "url": "https://api.hh.ru/areas/1"
-            },
-            "salary": {
-                "from": 80000,
-                "to": 150000,
-                "currency": "RUR",
-                "gross": true
-            },
-            "type": {
-                "id": "open",
-                "name": "Открытая"
-            },
-            "address": {
-                "city": "Москва",
-                "street": "Нижняя Красносельская улица",
-                "building": "35с9",
-                "lat": 55.776127,
-                "lng": 37.673888,
-                "description": null,
-                "raw": "Москва, Нижняя Красносельская улица, 35с9",
-                "metro": null,
-                "metro_stations": [],
-                "id": "13359680"
-            },
-            "response_url": null,
-            "sort_point_distance": null,
-            "published_at": "2023-11-19T18:26:07+0300",
-            "created_at": "2023-11-19T18:26:07+0300",
-            "archived": false,
-            "apply_alternate_url": "https://hh.ru/applicant/vacancy_response?vacancyId=89630756",
-            "show_logo_in_search": null,
-            "insider_interview": null,
-            "url": "https://api.hh.ru/vacancies/89630756?host=hh.ru",
-            "alternate_url": "https://hh.ru/vacancy/89630756",
-            "relations": [],
-            "employer": {
-                "id": "4587389",
-                "name": "Ботаникалс",
-                "url": "https://api.hh.ru/employers/4587389",
-                "alternate_url": "https://hh.ru/employer/4587389",
-                "logo_urls": {
-                    "240": "https://hhcdn.ru/employer-logo/6033846.jpeg",
-                    "90": "https://hhcdn.ru/employer-logo/6033845.jpeg",
-                    "original": "https://hhcdn.ru/employer-logo-original/1103308.jpg"
-                },
-                "vacancies_url": "https://api.hh.ru/vacancies?employer_id=4587389",
-                "accredited_it_employer": false,
-                "trusted": true
-            },
-            "personal_data_resale": false,
-            "snippet": {
-                "requirement": "Внимательно оцените свой опыт, возможности и приоритеты. Понимание всей логистической цепочки, маршрут составляет <highlighttext>логист</highlighttext>. Коммуникабельность, многозадачность, знание города. ",
-                "responsibility": "Безопасное управление автомобилем, отсутствие штрафов. Погрузка-разгрузка перевозимого товара. Отслеживание поступления отгрузочных документов, проверка, передача по реестру в бухгалтерию. "
-            },
-            "contacts": null,
-            "schedule": {
-                "id": "fullDay",
-                "name": "Полный день"
-            },
-            "working_days": [],
-            "working_time_intervals": [],
-            "working_time_modes": [],
-            "accept_temporary": true,
-            "professional_roles": [
-                {
-                    "id": "21",
-                    "name": "Водитель"
-                }
-            ],
-            "accept_incomplete_resumes": false,
-            "experience": {
-                "id": "between1And3",
-                "name": "От 1 года до 3 лет"
-            },
-            "employment": {
-                "id": "full",
-                "name": "Полная занятость"
-            },
-            "adv_response_url": null,
-            "is_adv_vacancy": false,
-            "adv_context": null
-        },
-        {
-            "id": "89801455",
+            "id": "90017089",
             "premium": false,
             "name": "Водитель автомобиля",
             "department": null,
             "has_test": false,
             "response_letter_required": false,
             "area": {
-                "id": "24",
-                "name": "Волгоград",
-                "url": "https://api.hh.ru/areas/24"
+                "id": "79",
+                "name": "Саратов",
+                "url": "https://api.hh.ru/areas/79"
             },
             "salary": {
-                "from": 50000,
-                "to": 60000,
+                "from": 45000,
+                "to": 50000,
                 "currency": "RUR",
                 "gross": true
             },
@@ -742,41 +1266,40 @@
                 "name": "Открытая"
             },
             "address": {
-                "city": "Волгоград",
-                "street": "улица Шкирятова",
-                "building": "32",
-                "lat": 48.83695377220215,
-                "lng": 44.58939552184121,
+                "city": "Саратов",
+                "street": "Вольская улица",
+                "building": "138/5",
+                "lat": 51.545152,
+                "lng": 46.033044,
                 "description": null,
-                "raw": "Волгоград, улица Шкирятова, 32",
+                "raw": "Саратов, Вольская улица, 138/5",
                 "metro": null,
                 "metro_stations": [],
-                "id": "5737568"
+                "id": "6159256"
             },
             "response_url": null,
             "sort_point_distance": null,
-            "published_at": "2023-11-25T17:19:32+0300",
-            "created_at": "2023-11-25T17:19:32+0300",
+            "published_at": "2023-11-28T09:44:20+0300",
+            "created_at": "2023-11-28T09:44:20+0300",
             "archived": false,
-            "apply_alternate_url": "https://hh.ru/applicant/vacancy_response?vacancyId=89801455",
+            "apply_alternate_url": "https://hh.ru/applicant/vacancy_response?vacancyId=90017089",
             "insider_interview": null,
-            "url": "https://api.hh.ru/vacancies/89801455?host=hh.ru",
-            "alternate_url": "https://hh.ru/vacancy/89801455",
+            "url": "https://api.hh.ru/vacancies/90017089?host=hh.ru",
+            "alternate_url": "https://hh.ru/vacancy/90017089",
             "relations": [],
             "employer": {
-                "id": "5395946",
-                "name": "Корпорация ВОЛМА",
-                "url": "https://api.hh.ru/employers/5395946",
-                "alternate_url": "https://hh.ru/employer/5395946",
+                "id": "5595976",
+                "name": "Государственное учреждение Саратовской области Транспортное управление",
+                "url": "https://api.hh.ru/employers/5595976",
+                "alternate_url": "https://hh.ru/employer/5595976",
                 "logo_urls": null,
-                "vacancies_url": "https://api.hh.ru/vacancies?employer_id=5395946",
+                "vacancies_url": "https://api.hh.ru/vacancies?employer_id=5595976",
                 "accredited_it_employer": false,
                 "trusted": true
             },
-            "personal_data_resale": false,
             "snippet": {
-                "requirement": "действующие водительские пpавa катeгopии В,C. - умение упрaвлять гpузoвым aвтoмобилем грузоподъемноcтью oт 1,5 т. и болeе (автомобили типa Гaзель...",
-                "responsibility": "управление тpaнспортным средcтвом. - сбop и вывоз макулaтуры пo заданию <highlighttext>логиста</highlighttext>."
+                "requirement": "Наличие водительского удостоверения с категорией \"В\" и \"С\".",
+                "responsibility": "Безопасно и эффективно управлять транспортным средством соответствующей категории в различных условиях дорожного движения."
             },
             "contacts": null,
             "schedule": {
@@ -789,8 +1312,8 @@
             "accept_temporary": false,
             "professional_roles": [
                 {
-                    "id": "40",
-                    "name": "Другое"
+                    "id": "21",
+                    "name": "Водитель"
                 }
             ],
             "accept_incomplete_resumes": true,
@@ -807,9 +1330,9 @@
             "adv_context": null
         },
         {
-            "id": "89618167",
+            "id": "90018645",
             "premium": false,
-            "name": "Менеджер по работе с клиентами",
+            "name": "Водитель на автомобиле компании",
             "department": null,
             "has_test": false,
             "response_letter_required": false,
@@ -819,220 +1342,8 @@
                 "url": "https://api.hh.ru/areas/88"
             },
             "salary": {
-                "from": 80000,
-                "to": null,
-                "currency": "RUR",
-                "gross": false
-            },
-            "type": {
-                "id": "open",
-                "name": "Открытая"
-            },
-            "address": {
-                "city": "Казань",
-                "street": "улица Островского",
-                "building": "87",
-                "lat": 55.782036,
-                "lng": 49.12951,
-                "description": null,
-                "raw": "Казань, улица Островского, 87",
-                "metro": {
-                    "station_name": "Площадь Тукая",
-                    "line_name": "Центральная",
-                    "station_id": "49.273",
-                    "line_id": "49",
-                    "lat": 55.787163,
-                    "lng": 49.122126
-                },
-                "metro_stations": [
-                    {
-                        "station_name": "Площадь Тукая",
-                        "line_name": "Центральная",
-                        "station_id": "49.273",
-                        "line_id": "49",
-                        "lat": 55.787163,
-                        "lng": 49.122126
-                    },
-                    {
-                        "station_name": "Суконная слобода",
-                        "line_name": "Центральная",
-                        "station_id": "49.274",
-                        "line_id": "49",
-                        "lat": 55.777094,
-                        "lng": 49.142275
-                    }
-                ],
-                "id": "14469253"
-            },
-            "response_url": null,
-            "sort_point_distance": null,
-            "published_at": "2023-11-26T22:06:36+0300",
-            "created_at": "2023-11-26T22:06:36+0300",
-            "archived": false,
-            "apply_alternate_url": "https://hh.ru/applicant/vacancy_response?vacancyId=89618167",
-            "show_logo_in_search": null,
-            "insider_interview": null,
-            "url": "https://api.hh.ru/vacancies/89618167?host=hh.ru",
-            "alternate_url": "https://hh.ru/vacancy/89618167",
-            "relations": [],
-            "employer": {
-                "id": "10353542",
-                "name": "Инт-Сервис",
-                "url": "https://api.hh.ru/employers/10353542",
-                "alternate_url": "https://hh.ru/employer/10353542",
-                "logo_urls": {
-                    "240": "https://hhcdn.ru/employer-logo/6294771.jpeg",
-                    "90": "https://hhcdn.ru/employer-logo/6294770.jpeg",
-                    "original": "https://hhcdn.ru/employer-logo-original/1168583.jpg"
-                },
-                "vacancies_url": "https://api.hh.ru/vacancies?employer_id=10353542",
-                "accredited_it_employer": false,
-                "trusted": true
-            },
-            "personal_data_resale": false,
-            "snippet": {
-                "requirement": "Опыт в комплексных/проектных продажах (ты знаешь классическую, теоретическую систему продаж, как подстраиваться под клиента и располагать его к себе. ",
-                "responsibility": "Контроль поставки (для обеспечения контракта у нас есть отдел закупок и <highlighttext>логисты</highlighttext>, тебе нужно взаимодействовать с ними для того, чтобы..."
-            },
-            "contacts": null,
-            "schedule": {
-                "id": "fullDay",
-                "name": "Полный день"
-            },
-            "working_days": [],
-            "working_time_intervals": [],
-            "working_time_modes": [],
-            "accept_temporary": false,
-            "professional_roles": [
-                {
-                    "id": "70",
-                    "name": "Менеджер по продажам, менеджер по работе с клиентами"
-                }
-            ],
-            "accept_incomplete_resumes": false,
-            "experience": {
-                "id": "between1And3",
-                "name": "От 1 года до 3 лет"
-            },
-            "employment": {
-                "id": "full",
-                "name": "Полная занятость"
-            },
-            "adv_response_url": null,
-            "is_adv_vacancy": false,
-            "adv_context": null
-        },
-        {
-            "id": "89899719",
-            "premium": false,
-            "name": "Менеджер по оформлению документов/оператор 1С",
-            "department": null,
-            "has_test": false,
-            "response_letter_required": false,
-            "area": {
-                "id": "1",
-                "name": "Москва",
-                "url": "https://api.hh.ru/areas/1"
-            },
-            "salary": {
-                "from": 70000,
-                "to": null,
-                "currency": "RUR",
-                "gross": false
-            },
-            "type": {
-                "id": "open",
-                "name": "Открытая"
-            },
-            "address": {
-                "city": "Москва",
-                "street": "Перовское шоссе",
-                "building": "25с1",
-                "lat": 55.737416,
-                "lng": 37.753101,
-                "description": null,
-                "raw": "Москва, Перовское шоссе, 25с1",
-                "metro": null,
-                "metro_stations": [],
-                "id": "436517"
-            },
-            "response_url": null,
-            "sort_point_distance": null,
-            "published_at": "2023-11-27T17:47:18+0300",
-            "created_at": "2023-11-27T17:47:18+0300",
-            "archived": false,
-            "apply_alternate_url": "https://hh.ru/applicant/vacancy_response?vacancyId=89899719",
-            "branding": {
-                "type": "MAKEUP",
-                "tariff": null
-            },
-            "show_logo_in_search": true,
-            "insider_interview": null,
-            "url": "https://api.hh.ru/vacancies/89899719?host=hh.ru",
-            "alternate_url": "https://hh.ru/vacancy/89899719",
-            "relations": [],
-            "employer": {
-                "id": "737244",
-                "name": "ТК Мейджик Транс",
-                "url": "https://api.hh.ru/employers/737244",
-                "alternate_url": "https://hh.ru/employer/737244",
-                "logo_urls": {
-                    "original": "https://hhcdn.ru/employer-logo-original/144544.JPG",
-                    "240": "https://hhcdn.ru/employer-logo/615303.jpeg",
-                    "90": "https://hhcdn.ru/employer-logo/615302.jpeg"
-                },
-                "vacancies_url": "https://api.hh.ru/vacancies?employer_id=737244",
-                "accredited_it_employer": false,
-                "trusted": true
-            },
-            "personal_data_resale": false,
-            "snippet": {
-                "requirement": "Ответственность, коммуникабельность, обучаемость. Желательно иметь опыт работы на складе.",
-                "responsibility": "Оформление акта приема-сдачи груза в 1С. Оперативное решение всех вопросов, связанных с оформлением и приемом грузов. "
-            },
-            "contacts": null,
-            "schedule": {
-                "id": "fullDay",
-                "name": "Полный день"
-            },
-            "working_days": [],
-            "working_time_intervals": [],
-            "working_time_modes": [],
-            "accept_temporary": false,
-            "professional_roles": [
-                {
-                    "id": "52",
-                    "name": "Кладовщик"
-                }
-            ],
-            "accept_incomplete_resumes": true,
-            "experience": {
-                "id": "noExperience",
-                "name": "Нет опыта"
-            },
-            "employment": {
-                "id": "full",
-                "name": "Полная занятость"
-            },
-            "adv_response_url": null,
-            "is_adv_vacancy": false,
-            "adv_context": null
-        },
-        {
-            "id": "90033475",
-            "premium": false,
-            "name": "Персональный водитель (г. Одинцово)",
-            "department": null,
-            "has_test": false,
-            "response_letter_required": false,
-            "area": {
-                "id": "1",
-                "name": "Москва",
-                "url": "https://api.hh.ru/areas/1"
-            },
-            "salary": {
-                "from": 100000,
-                "to": null,
+                "from": 50000,
+                "to": 90000,
                 "currency": "RUR",
                 "gross": false
             },
@@ -1043,37 +1354,27 @@
             "address": null,
             "response_url": null,
             "sort_point_distance": null,
-            "published_at": "2023-11-28T12:26:49+0300",
-            "created_at": "2023-11-28T12:26:49+0300",
+            "published_at": "2023-11-28T10:01:33+0300",
+            "created_at": "2023-11-28T10:01:33+0300",
             "archived": false,
-            "apply_alternate_url": "https://hh.ru/applicant/vacancy_response?vacancyId=90033475",
-            "branding": {
-                "type": "MAKEUP",
-                "tariff": null
-            },
-            "show_logo_in_search": true,
+            "apply_alternate_url": "https://hh.ru/applicant/vacancy_response?vacancyId=90018645",
             "insider_interview": null,
-            "url": "https://api.hh.ru/vacancies/90033475?host=hh.ru",
-            "alternate_url": "https://hh.ru/vacancy/90033475",
+            "url": "https://api.hh.ru/vacancies/90018645?host=hh.ru",
+            "alternate_url": "https://hh.ru/vacancy/90018645",
             "relations": [],
             "employer": {
-                "id": "104309",
-                "name": "Мясницкий ряд",
-                "url": "https://api.hh.ru/employers/104309",
-                "alternate_url": "https://hh.ru/employer/104309",
-                "logo_urls": {
-                    "original": "https://hhcdn.ru/employer-logo-original/1076016.png",
-                    "240": "https://hhcdn.ru/employer-logo/5924694.png",
-                    "90": "https://hhcdn.ru/employer-logo/5924693.png"
-                },
-                "vacancies_url": "https://api.hh.ru/vacancies?employer_id=104309",
+                "id": "10439559",
+                "name": "ЗАЩИТА",
+                "url": "https://api.hh.ru/employers/10439559",
+                "alternate_url": "https://hh.ru/employer/10439559",
+                "logo_urls": null,
+                "vacancies_url": "https://api.hh.ru/vacancies?employer_id=10439559",
                 "accredited_it_employer": false,
                 "trusted": true
             },
-            "personal_data_resale": false,
             "snippet": {
-                "requirement": "Наличие собственной авторемонтной мастерской.  Стаж вождения от 10-ти лет, категория \"В\".  Опыт вождения автомобилей представительского класса.  Опыт по трудовой...",
-                "responsibility": "Перевозка исполнительного директора компании и членов его семьи.  Обеспечение безопасности руководителя и членов его семьи.  Выполнение поручений руководителя и членов..."
+                "requirement": "Наличие водительских прав категории В. Опыт работы от 3-х лет. Оперативность, исполнительность.",
+                "responsibility": "Безопасное и квалифицированное управление транспортным средством. Поддержание в исправности и работоспособности транспортного средства. Перевозка грузов и пассажиров."
             },
             "contacts": null,
             "schedule": {
@@ -1092,330 +1393,6 @@
             ],
             "accept_incomplete_resumes": false,
             "experience": {
-                "id": "between3And6",
-                "name": "От 3 до 6 лет"
-            },
-            "employment": {
-                "id": "full",
-                "name": "Полная занятость"
-            },
-            "adv_response_url": null,
-            "is_adv_vacancy": false,
-            "adv_context": null
-        },
-        {
-            "id": "83647064",
-            "premium": false,
-            "name": "Курьер пеший на доставку раций и документов",
-            "department": null,
-            "has_test": false,
-            "response_letter_required": false,
-            "area": {
-                "id": "1",
-                "name": "Москва",
-                "url": "https://api.hh.ru/areas/1"
-            },
-            "salary": {
-                "from": 65000,
-                "to": 85000,
-                "currency": "RUR",
-                "gross": false
-            },
-            "type": {
-                "id": "open",
-                "name": "Открытая"
-            },
-            "address": {
-                "city": "Москва",
-                "street": "Алтуфьевское шоссе",
-                "building": "37с22",
-                "lat": 55.866182,
-                "lng": 37.5812,
-                "description": null,
-                "raw": "Москва, Алтуфьевское шоссе, 37с22",
-                "metro": {
-                    "station_name": "Верхние Лихоборы",
-                    "line_name": "Люблинско-Дмитровская",
-                    "station_id": "10.598",
-                    "line_id": "10",
-                    "lat": 55.85566,
-                    "lng": 37.56282
-                },
-                "metro_stations": [
-                    {
-                        "station_name": "Верхние Лихоборы",
-                        "line_name": "Люблинско-Дмитровская",
-                        "station_id": "10.598",
-                        "line_id": "10",
-                        "lat": 55.85566,
-                        "lng": 37.56282
-                    },
-                    {
-                        "station_name": "Дегунино",
-                        "line_name": "МЦД - 1",
-                        "station_id": "131.696",
-                        "line_id": "131",
-                        "lat": 55.86586,
-                        "lng": 37.573235
-                    },
-                    {
-                        "station_name": "Отрадное",
-                        "line_name": "Серпуховско-Тимирязевская",
-                        "station_id": "9.97",
-                        "line_id": "9",
-                        "lat": 55.864273,
-                        "lng": 37.605066
-                    }
-                ],
-                "id": "11468774"
-            },
-            "response_url": null,
-            "sort_point_distance": null,
-            "published_at": "2023-11-17T11:35:19+0300",
-            "created_at": "2023-11-17T11:35:19+0300",
-            "archived": false,
-            "apply_alternate_url": "https://hh.ru/applicant/vacancy_response?vacancyId=83647064",
-            "show_logo_in_search": null,
-            "insider_interview": null,
-            "url": "https://api.hh.ru/vacancies/83647064?host=hh.ru",
-            "alternate_url": "https://hh.ru/vacancy/83647064",
-            "relations": [],
-            "employer": {
-                "id": "3037002",
-                "name": "Транссвязь",
-                "url": "https://api.hh.ru/employers/3037002",
-                "alternate_url": "https://hh.ru/employer/3037002",
-                "logo_urls": {
-                    "240": "https://hhcdn.ru/employer-logo/3945528.jpeg",
-                    "90": "https://hhcdn.ru/employer-logo/3945527.jpeg",
-                    "original": "https://hhcdn.ru/employer-logo-original/876163.jpg"
-                },
-                "vacancies_url": "https://api.hh.ru/vacancies?employer_id=3037002",
-                "accredited_it_employer": false,
-                "trusted": true
-            },
-            "personal_data_resale": false,
-            "snippet": {
-                "requirement": "Электронике. Навыки и опыт: - Активность, ответственность. - Нацеленность на результат и на достижение целей. - Готовность усердно работать и развиваться.",
-                "responsibility": "Детским товарам. Спорт товарам. Зоотоварам. - Своевременная доставка раций и антенн по Москве и МО. Маршрут составляется <highlighttext>логистом</highlighttext>."
-            },
-            "contacts": null,
-            "schedule": {
-                "id": "fullDay",
-                "name": "Полный день"
-            },
-            "working_days": [],
-            "working_time_intervals": [],
-            "working_time_modes": [],
-            "accept_temporary": true,
-            "professional_roles": [
-                {
-                    "id": "58",
-                    "name": "Курьер"
-                }
-            ],
-            "accept_incomplete_resumes": false,
-            "experience": {
-                "id": "noExperience",
-                "name": "Нет опыта"
-            },
-            "employment": {
-                "id": "full",
-                "name": "Полная занятость"
-            },
-            "adv_response_url": null,
-            "is_adv_vacancy": false,
-            "adv_context": null
-        },
-        {
-            "id": "90012329",
-            "premium": false,
-            "name": "Помощник логиста (Администратор)",
-            "department": null,
-            "has_test": false,
-            "response_letter_required": false,
-            "area": {
-                "id": "90",
-                "name": "Томск",
-                "url": "https://api.hh.ru/areas/90"
-            },
-            "salary": {
-                "from": 40000,
-                "to": 60000,
-                "currency": "RUR",
-                "gross": false
-            },
-            "type": {
-                "id": "open",
-                "name": "Открытая"
-            },
-            "address": {
-                "city": "Томск",
-                "street": "улица Карла Маркса",
-                "building": "11",
-                "lat": 56.490738,
-                "lng": 84.945753,
-                "description": null,
-                "raw": "Томск, улица Карла Маркса, 11",
-                "metro": null,
-                "metro_stations": [],
-                "id": "6815709"
-            },
-            "response_url": null,
-            "sort_point_distance": null,
-            "published_at": "2023-11-28T08:25:37+0300",
-            "created_at": "2023-11-28T08:25:37+0300",
-            "archived": false,
-            "apply_alternate_url": "https://hh.ru/applicant/vacancy_response?vacancyId=90012329",
-            "show_logo_in_search": null,
-            "insider_interview": null,
-            "url": "https://api.hh.ru/vacancies/90012329?host=hh.ru",
-            "alternate_url": "https://hh.ru/vacancy/90012329",
-            "relations": [],
-            "employer": {
-                "id": "5858316",
-                "name": "Клумба Томск",
-                "url": "https://api.hh.ru/employers/5858316",
-                "alternate_url": "https://hh.ru/employer/5858316",
-                "logo_urls": {
-                    "original": "https://hhcdn.ru/employer-logo-original/911724.jpg",
-                    "240": "https://hhcdn.ru/employer-logo/4087584.jpeg",
-                    "90": "https://hhcdn.ru/employer-logo/4087583.jpeg"
-                },
-                "vacancies_url": "https://api.hh.ru/vacancies?employer_id=5858316",
-                "accredited_it_employer": false,
-                "trusted": true
-            },
-            "personal_data_resale": false,
-            "snippet": {
-                "requirement": null,
-                "responsibility": "Прием заказов по телефону, мессенджеры и в нашем программном обеспечении. -Консультация клиентов и приём заказов только по входящим заявкам."
-            },
-            "contacts": null,
-            "schedule": {
-                "id": "fullDay",
-                "name": "Полный день"
-            },
-            "working_days": [],
-            "working_time_intervals": [],
-            "working_time_modes": [],
-            "accept_temporary": false,
-            "professional_roles": [
-                {
-                    "id": "8",
-                    "name": "Администратор"
-                }
-            ],
-            "accept_incomplete_resumes": false,
-            "experience": {
-                "id": "noExperience",
-                "name": "Нет опыта"
-            },
-            "employment": {
-                "id": "full",
-                "name": "Полная занятость"
-            },
-            "adv_response_url": null,
-            "is_adv_vacancy": false,
-            "adv_context": null
-        },
-        {
-            "id": "89841145",
-            "premium": false,
-            "name": "Менеджер по работе с клиентами / Специалист по логистике",
-            "department": null,
-            "has_test": false,
-            "response_letter_required": false,
-            "area": {
-                "id": "1",
-                "name": "Москва",
-                "url": "https://api.hh.ru/areas/1"
-            },
-            "salary": {
-                "from": 80000,
-                "to": null,
-                "currency": "RUR",
-                "gross": false
-            },
-            "type": {
-                "id": "open",
-                "name": "Открытая"
-            },
-            "address": {
-                "city": "Москва",
-                "street": "улица Академика Анохина",
-                "building": "56",
-                "lat": 55.651049,
-                "lng": 37.469431,
-                "description": null,
-                "raw": "Москва, улица Академика Анохина, 56",
-                "metro": {
-                    "station_name": "Тропарево",
-                    "line_name": "Сокольническая",
-                    "station_id": "1.505",
-                    "line_id": "1",
-                    "lat": 55.6459,
-                    "lng": 37.4725
-                },
-                "metro_stations": [
-                    {
-                        "station_name": "Тропарево",
-                        "line_name": "Сокольническая",
-                        "station_id": "1.505",
-                        "line_id": "1",
-                        "lat": 55.6459,
-                        "lng": 37.4725
-                    }
-                ],
-                "id": "2534379"
-            },
-            "response_url": null,
-            "sort_point_distance": null,
-            "published_at": "2023-11-23T14:41:02+0300",
-            "created_at": "2023-11-23T14:41:02+0300",
-            "archived": false,
-            "apply_alternate_url": "https://hh.ru/applicant/vacancy_response?vacancyId=89841145",
-            "show_logo_in_search": null,
-            "insider_interview": null,
-            "url": "https://api.hh.ru/vacancies/89841145?host=hh.ru",
-            "alternate_url": "https://hh.ru/vacancy/89841145",
-            "relations": [],
-            "employer": {
-                "id": "2362277",
-                "name": "Седов Г. А.",
-                "url": "https://api.hh.ru/employers/2362277",
-                "alternate_url": "https://hh.ru/employer/2362277",
-                "logo_urls": {
-                    "240": "https://hhcdn.ru/employer-logo/6049866.jpeg",
-                    "90": "https://hhcdn.ru/employer-logo/6049865.jpeg",
-                    "original": "https://hhcdn.ru/employer-logo-original/1107315.JPG"
-                },
-                "vacancies_url": "https://api.hh.ru/vacancies?employer_id=2362277",
-                "accredited_it_employer": false,
-                "trusted": true
-            },
-            "personal_data_resale": false,
-            "snippet": {
-                "requirement": "Опыт работы в клиентском сервисе, менеджер по работе с клиентами, менеджером по продажам или <highlighttext>логистом</highlighttext>. Будет весомым плюсом если Вы...",
-                "responsibility": "Прием и обработка заказов: звонки, общение с клиентами в чатах и группах. Работа в СРМ (Битрикс 24) и таблицах. "
-            },
-            "contacts": null,
-            "schedule": {
-                "id": "fullDay",
-                "name": "Полный день"
-            },
-            "working_days": [],
-            "working_time_intervals": [],
-            "working_time_modes": [],
-            "accept_temporary": true,
-            "professional_roles": [
-                {
-                    "id": "70",
-                    "name": "Менеджер по продажам, менеджер по работе с клиентами"
-                }
-            ],
-            "accept_incomplete_resumes": false,
-            "experience": {
                 "id": "between1And3",
                 "name": "От 1 года до 3 лет"
             },
@@ -1428,259 +1405,20 @@
             "adv_context": null
         },
         {
-            "id": "89806145",
+            "id": "89757457",
             "premium": false,
-            "name": "Операционный директор (COO/управляющий/глава представительства)",
+            "name": "Водитель",
             "department": null,
             "has_test": false,
             "response_letter_required": false,
             "area": {
-                "id": "2759",
-                "name": "Ташкент",
-                "url": "https://api.hh.ru/areas/2759"
-            },
-            "salary": {
-                "from": 5000,
-                "to": 10000,
-                "currency": "USD",
-                "gross": false
-            },
-            "type": {
-                "id": "open",
-                "name": "Открытая"
-            },
-            "address": null,
-            "response_url": null,
-            "sort_point_distance": null,
-            "published_at": "2023-11-22T21:16:03+0300",
-            "created_at": "2023-11-22T21:16:03+0300",
-            "archived": false,
-            "apply_alternate_url": "https://hh.ru/applicant/vacancy_response?vacancyId=89806145",
-            "insider_interview": null,
-            "url": "https://api.hh.ru/vacancies/89806145?host=hh.ru",
-            "alternate_url": "https://hh.ru/vacancy/89806145",
-            "relations": [],
-            "employer": {
-                "id": "4666252",
-                "name": "Yakovleva V.",
-                "url": "https://api.hh.ru/employers/4666252",
-                "alternate_url": "https://hh.ru/employer/4666252",
-                "logo_urls": null,
-                "vacancies_url": "https://api.hh.ru/vacancies?employer_id=4666252",
-                "accredited_it_employer": false,
-                "trusted": true
-            },
-            "personal_data_resale": false,
-            "snippet": {
-                "requirement": "Отличные менеджерские навыки (хард и софт скиллы). Мы не предъявляем требований к знаниям логистики, т.к. понимаем, что это знания...",
-                "responsibility": "Деятельность: транспортная логистика по США (на фурах). Резидент IT Rark. Основной бизнес процесс - перевозка грузов по США траками (trucks), Автопарк..."
-            },
-            "contacts": null,
-            "schedule": {
-                "id": "fullDay",
-                "name": "Полный день"
-            },
-            "working_days": [],
-            "working_time_intervals": [],
-            "working_time_modes": [],
-            "accept_temporary": false,
-            "professional_roles": [
-                {
-                    "id": "87",
-                    "name": "Операционный директор (COO)"
-                }
-            ],
-            "accept_incomplete_resumes": false,
-            "experience": {
-                "id": "between3And6",
-                "name": "От 3 до 6 лет"
-            },
-            "employment": {
-                "id": "full",
-                "name": "Полная занятость"
-            },
-            "adv_response_url": null,
-            "is_adv_vacancy": false,
-            "adv_context": null
-        },
-        {
-            "id": "89941630",
-            "premium": false,
-            "name": "Специалист по логистике",
-            "department": null,
-            "has_test": false,
-            "response_letter_required": false,
-            "area": {
-                "id": "2301",
-                "name": "Лида",
-                "url": "https://api.hh.ru/areas/2301"
-            },
-            "salary": {
-                "from": 2000,
-                "to": null,
-                "currency": "BYR",
-                "gross": false
-            },
-            "type": {
-                "id": "open",
-                "name": "Открытая"
-            },
-            "address": null,
-            "response_url": null,
-            "sort_point_distance": null,
-            "published_at": "2023-11-26T19:22:43+0300",
-            "created_at": "2023-11-26T19:22:43+0300",
-            "archived": false,
-            "apply_alternate_url": "https://hh.ru/applicant/vacancy_response?vacancyId=89941630",
-            "insider_interview": null,
-            "url": "https://api.hh.ru/vacancies/89941630?host=hh.ru",
-            "alternate_url": "https://hh.ru/vacancy/89941630",
-            "relations": [],
-            "employer": {
-                "id": "9608743",
-                "name": "Белсалттрэйд",
-                "url": "https://api.hh.ru/employers/9608743",
-                "alternate_url": "https://hh.ru/employer/9608743",
-                "logo_urls": null,
-                "vacancies_url": "https://api.hh.ru/vacancies?employer_id=9608743",
-                "accredited_it_employer": false,
-                "trusted": true
-            },
-            "personal_data_resale": false,
-            "snippet": {
-                "requirement": null,
-                "responsibility": "Полное сопровождение транспортной логистики, продукции собственного производсва (индейка). Работа с привлечённым транспортом, работа с собственным транспортом. Поиск оптимальных маршрутов и..."
-            },
-            "contacts": null,
-            "schedule": {
-                "id": "fullDay",
-                "name": "Полный день"
-            },
-            "working_days": [],
-            "working_time_intervals": [],
-            "working_time_modes": [],
-            "accept_temporary": false,
-            "professional_roles": [
-                {
-                    "id": "67",
-                    "name": "Менеджер по логистике, менеджер по ВЭД"
-                }
-            ],
-            "accept_incomplete_resumes": false,
-            "experience": {
-                "id": "between1And3",
-                "name": "От 1 года до 3 лет"
-            },
-            "employment": {
-                "id": "full",
-                "name": "Полная занятость"
-            },
-            "adv_response_url": null,
-            "is_adv_vacancy": false,
-            "adv_context": null
-        },
-        {
-            "id": "89354633",
-            "premium": false,
-            "name": "Менеджер по логистике",
-            "department": null,
-            "has_test": false,
-            "response_letter_required": false,
-            "area": {
-                "id": "1",
-                "name": "Москва",
-                "url": "https://api.hh.ru/areas/1"
-            },
-            "salary": {
-                "from": 90000,
-                "to": null,
-                "currency": "RUR",
-                "gross": false
-            },
-            "type": {
-                "id": "open",
-                "name": "Открытая"
-            },
-            "address": {
-                "city": null,
-                "street": null,
-                "building": null,
-                "lat": 0.0,
-                "lng": 0.0,
-                "description": null,
-                "raw": "Москва, Нагатинская улица, дом 1, строение 14.",
-                "metro": null,
-                "metro_stations": [],
-                "id": "157637"
-            },
-            "response_url": null,
-            "sort_point_distance": null,
-            "published_at": "2023-11-28T09:40:57+0300",
-            "created_at": "2023-11-28T09:40:57+0300",
-            "archived": false,
-            "apply_alternate_url": "https://hh.ru/applicant/vacancy_response?vacancyId=89354633",
-            "insider_interview": null,
-            "url": "https://api.hh.ru/vacancies/89354633?host=hh.ru",
-            "alternate_url": "https://hh.ru/vacancy/89354633",
-            "relations": [],
-            "employer": {
-                "id": "735128",
-                "name": "Монтажстальконструкция",
-                "url": "https://api.hh.ru/employers/735128",
-                "alternate_url": "https://hh.ru/employer/735128",
-                "logo_urls": null,
-                "vacancies_url": "https://api.hh.ru/vacancies?employer_id=735128",
-                "accredited_it_employer": false,
-                "trusted": true
-            },
-            "personal_data_resale": false,
-            "snippet": {
-                "requirement": "Опыт работы не менее трёх лет на аналогичной должности. - Опытный пользователь ATI.SU и других ресурсов поиска авто и грузов. - ",
-                "responsibility": "Оптимальное использование собственного автопарка, составление графика доставок готовых заказов с производства. Составление эффективных схем загрузки и маршрутов а/транспорта. - "
-            },
-            "contacts": null,
-            "schedule": {
-                "id": "fullDay",
-                "name": "Полный день"
-            },
-            "working_days": [],
-            "working_time_intervals": [],
-            "working_time_modes": [],
-            "accept_temporary": false,
-            "professional_roles": [
-                {
-                    "id": "67",
-                    "name": "Менеджер по логистике, менеджер по ВЭД"
-                }
-            ],
-            "accept_incomplete_resumes": false,
-            "experience": {
-                "id": "between3And6",
-                "name": "От 3 до 6 лет"
-            },
-            "employment": {
-                "id": "full",
-                "name": "Полная занятость"
-            },
-            "adv_response_url": null,
-            "is_adv_vacancy": false,
-            "adv_context": null
-        },
-        {
-            "id": "90011083",
-            "premium": false,
-            "name": "Региональный менеджер, Уральск",
-            "department": null,
-            "has_test": false,
-            "response_letter_required": false,
-            "area": {
-                "id": "193",
-                "name": "Уральск",
-                "url": "https://api.hh.ru/areas/193"
+                "id": "160",
+                "name": "Алматы",
+                "url": "https://api.hh.ru/areas/160"
             },
             "salary": {
                 "from": 300000,
-                "to": 600000,
+                "to": null,
                 "currency": "KZT",
                 "gross": false
             },
@@ -1691,33 +1429,27 @@
             "address": null,
             "response_url": null,
             "sort_point_distance": null,
-            "published_at": "2023-11-28T07:58:59+0300",
-            "created_at": "2023-11-28T07:58:59+0300",
+            "published_at": "2023-11-22T07:13:16+0300",
+            "created_at": "2023-11-22T07:13:16+0300",
             "archived": false,
-            "apply_alternate_url": "https://hh.ru/applicant/vacancy_response?vacancyId=90011083",
-            "show_logo_in_search": null,
+            "apply_alternate_url": "https://hh.ru/applicant/vacancy_response?vacancyId=89757457",
             "insider_interview": null,
-            "url": "https://api.hh.ru/vacancies/90011083?host=hh.ru",
-            "alternate_url": "https://hh.ru/vacancy/90011083",
+            "url": "https://api.hh.ru/vacancies/89757457?host=hh.ru",
+            "alternate_url": "https://hh.ru/vacancy/89757457",
             "relations": [],
             "employer": {
-                "id": "1247310",
-                "name": "Sante Group",
-                "url": "https://api.hh.ru/employers/1247310",
-                "alternate_url": "https://hh.ru/employer/1247310",
-                "logo_urls": {
-                    "240": "https://hhcdn.ru/employer-logo/5490737.jpeg",
-                    "90": "https://hhcdn.ru/employer-logo/5490736.jpeg",
-                    "original": "https://hhcdn.ru/employer-logo-original/967906.jpg"
-                },
-                "vacancies_url": "https://api.hh.ru/vacancies?employer_id=1247310",
+                "id": "1066260",
+                "name": "Nur Oil Treid (Нур Ойл Трейд)",
+                "url": "https://api.hh.ru/employers/1066260",
+                "alternate_url": "https://hh.ru/employer/1066260",
+                "logo_urls": null,
+                "vacancies_url": "https://api.hh.ru/vacancies?employer_id=1066260",
                 "accredited_it_employer": false,
                 "trusted": true
             },
-            "personal_data_resale": false,
             "snippet": {
-                "requirement": "Опыт работы от 3 лет. Желательно разбирающиеся в космецевтике, опыт с врачами. Опыт работы торговым представителем. Наличие клиентской базы будет...",
-                "responsibility": "Взаимодействие с клиентами, менеджерами по продажам в регионе, отделом закупки, <highlighttext>логистами</highlighttext>. Развитие клиентской базы и увеличение объемов продаж. "
+                "requirement": "<highlighttext>Водитель</highlighttext> должен иметь образование не ниже среднего, стаж вождения автомобилем не менее пяти лет, а также права категории «В».",
+                "responsibility": "Управление автомобилем, бережное отношение к вверенному автомобилю. Развозка сотрудников. Своевременное прибытие на рабочее место и подача автомобиля к подъезду организации. "
             },
             "contacts": null,
             "schedule": {
@@ -1730,8 +1462,179 @@
             "accept_temporary": false,
             "professional_roles": [
                 {
-                    "id": "70",
-                    "name": "Менеджер по продажам, менеджер по работе с клиентами"
+                    "id": "21",
+                    "name": "Водитель"
+                }
+            ],
+            "accept_incomplete_resumes": false,
+            "experience": {
+                "id": "moreThan6",
+                "name": "Более 6 лет"
+            },
+            "employment": {
+                "id": "full",
+                "name": "Полная занятость"
+            },
+            "adv_response_url": null,
+            "is_adv_vacancy": false,
+            "adv_context": null
+        },
+        {
+            "id": "90028794",
+            "premium": false,
+            "name": "Телохранитель с функцией водителя",
+            "department": null,
+            "has_test": false,
+            "response_letter_required": true,
+            "area": {
+                "id": "1",
+                "name": "Москва",
+                "url": "https://api.hh.ru/areas/1"
+            },
+            "salary": {
+                "from": 200000,
+                "to": null,
+                "currency": "RUR",
+                "gross": true
+            },
+            "type": {
+                "id": "anonymous",
+                "name": "Анонимная"
+            },
+            "address": null,
+            "response_url": null,
+            "sort_point_distance": null,
+            "published_at": "2023-11-28T11:27:50+0300",
+            "created_at": "2023-11-28T11:27:50+0300",
+            "archived": false,
+            "apply_alternate_url": "https://hh.ru/applicant/vacancy_response?vacancyId=90028794",
+            "insider_interview": null,
+            "url": "https://api.hh.ru/vacancies/90028794?host=hh.ru",
+            "alternate_url": "https://hh.ru/vacancy/90028794",
+            "relations": [],
+            "employer": {
+                "name": "Частное лицо",
+                "trusted": true
+            },
+            "snippet": {
+                "requirement": "Ищем телохранителя с функцией <highlighttext>водителя</highlighttext>. Пожалуйста внимательно ознакомьтесь с требованиями перед тем как откликаться, укажите в резюме или в сопроводительном...",
+                "responsibility": "Организация охраны работодателя и членов семьи. * Учёт расходов. * Полное сохранение конфиденциальности, соблюдение субординации. * Дополнительные поручения."
+            },
+            "contacts": null,
+            "schedule": {
+                "id": "flyInFlyOut",
+                "name": "Вахтовый метод"
+            },
+            "working_days": [],
+            "working_time_intervals": [],
+            "working_time_modes": [],
+            "accept_temporary": false,
+            "professional_roles": [
+                {
+                    "id": "90",
+                    "name": "Охранник"
+                }
+            ],
+            "accept_incomplete_resumes": false,
+            "experience": {
+                "id": "moreThan6",
+                "name": "Более 6 лет"
+            },
+            "employment": {
+                "id": "full",
+                "name": "Полная занятость"
+            },
+            "adv_response_url": null,
+            "is_adv_vacancy": false,
+            "adv_context": null
+        },
+        {
+            "id": "89995316",
+            "premium": false,
+            "name": "Семейный водитель",
+            "department": null,
+            "has_test": false,
+            "response_letter_required": false,
+            "area": {
+                "id": "88",
+                "name": "Казань",
+                "url": "https://api.hh.ru/areas/88"
+            },
+            "salary": {
+                "from": null,
+                "to": 70000,
+                "currency": "RUR",
+                "gross": false
+            },
+            "type": {
+                "id": "open",
+                "name": "Открытая"
+            },
+            "address": {
+                "city": "Казань",
+                "street": "Авиастроительный район",
+                "building": null,
+                "lat": 55.867132,
+                "lng": 49.083866,
+                "description": null,
+                "raw": "Казань, Авиастроительный район",
+                "metro": {
+                    "station_name": "Северный вокзал",
+                    "line_name": "Центральная",
+                    "station_id": "49.461",
+                    "line_id": "49",
+                    "lat": 55.841519,
+                    "lng": 49.081778
+                },
+                "metro_stations": [
+                    {
+                        "station_name": "Северный вокзал",
+                        "line_name": "Центральная",
+                        "station_id": "49.461",
+                        "line_id": "49",
+                        "lat": 55.841519,
+                        "lng": 49.081778
+                    }
+                ],
+                "id": "5571018"
+            },
+            "response_url": null,
+            "sort_point_distance": null,
+            "published_at": "2023-11-27T16:21:49+0300",
+            "created_at": "2023-11-27T16:21:49+0300",
+            "archived": false,
+            "apply_alternate_url": "https://hh.ru/applicant/vacancy_response?vacancyId=89995316",
+            "insider_interview": null,
+            "url": "https://api.hh.ru/vacancies/89995316?host=hh.ru",
+            "alternate_url": "https://hh.ru/vacancy/89995316",
+            "relations": [],
+            "employer": {
+                "id": "4044851",
+                "name": "Континент",
+                "url": "https://api.hh.ru/employers/4044851",
+                "alternate_url": "https://hh.ru/employer/4044851",
+                "logo_urls": null,
+                "vacancies_url": "https://api.hh.ru/vacancies?employer_id=4044851",
+                "accredited_it_employer": false,
+                "trusted": true
+            },
+            "snippet": {
+                "requirement": "Опыт работы в аналогичной должности не менее 5 лет. Опыт вождения автомобилей представительского класса. Стаж вождения от 10 лет. ",
+                "responsibility": "Отвезти/привезти детей в школу и обратно. Покупка продуктов в магазинах. Выполнение поручений руководителя."
+            },
+            "contacts": null,
+            "schedule": {
+                "id": "fullDay",
+                "name": "Полный день"
+            },
+            "working_days": [],
+            "working_time_intervals": [],
+            "working_time_modes": [],
+            "accept_temporary": false,
+            "professional_roles": [
+                {
+                    "id": "21",
+                    "name": "Водитель"
                 }
             ],
             "accept_incomplete_resumes": false,
@@ -1746,90 +1649,9 @@
             "adv_response_url": null,
             "is_adv_vacancy": false,
             "adv_context": null
-        },
-        {
-            "id": "89781450",
-            "premium": false,
-            "name": "Логист (контейнерные перевозки)",
-            "department": null,
-            "has_test": false,
-            "response_letter_required": false,
-            "area": {
-                "id": "4",
-                "name": "Новосибирск",
-                "url": "https://api.hh.ru/areas/4"
-            },
-            "salary": {
-                "from": 80000,
-                "to": null,
-                "currency": "RUR",
-                "gross": false
-            },
-            "type": {
-                "id": "open",
-                "name": "Открытая"
-            },
-            "address": null,
-            "response_url": null,
-            "sort_point_distance": null,
-            "published_at": "2023-11-28T12:54:42+0300",
-            "created_at": "2023-11-28T12:54:42+0300",
-            "archived": false,
-            "apply_alternate_url": "https://hh.ru/applicant/vacancy_response?vacancyId=89781450",
-            "show_logo_in_search": null,
-            "insider_interview": null,
-            "url": "https://api.hh.ru/vacancies/89781450?host=hh.ru",
-            "alternate_url": "https://hh.ru/vacancy/89781450",
-            "relations": [],
-            "employer": {
-                "id": "1281576",
-                "name": "ТЛЦ",
-                "url": "https://api.hh.ru/employers/1281576",
-                "alternate_url": "https://hh.ru/employer/1281576",
-                "logo_urls": {
-                    "original": "https://hhcdn.ru/employer-logo-original/1073695.png",
-                    "240": "https://hhcdn.ru/employer-logo/5915410.png",
-                    "90": "https://hhcdn.ru/employer-logo/5915409.png"
-                },
-                "vacancies_url": "https://api.hh.ru/vacancies?employer_id=1281576",
-                "accredited_it_employer": false,
-                "trusted": true
-            },
-            "personal_data_resale": false,
-            "snippet": {
-                "requirement": "Активный пользователь ПК. Знание программы 1С 8.3. Высшее образование. Хорошее знание г Новосибирск. Опыт работы автодиспетчером с грузовым...",
-                "responsibility": "Формирование и отправка заявок на прием груженых контейнеров в ПАО \"ТрансКонтейнер\" и другие терминалы, контроль их согласования. Взаимодействие со структурами..."
-            },
-            "contacts": null,
-            "schedule": {
-                "id": "fullDay",
-                "name": "Полный день"
-            },
-            "working_days": [],
-            "working_time_intervals": [],
-            "working_time_modes": [],
-            "accept_temporary": false,
-            "professional_roles": [
-                {
-                    "id": "39",
-                    "name": "Диспетчер"
-                }
-            ],
-            "accept_incomplete_resumes": true,
-            "experience": {
-                "id": "between1And3",
-                "name": "От 1 года до 3 лет"
-            },
-            "employment": {
-                "id": "full",
-                "name": "Полная занятость"
-            },
-            "adv_response_url": null,
-            "is_adv_vacancy": false,
-            "adv_context": null
         }
     ],
-    "found": 9259,
+    "found": 74363,
     "pages": 100,
     "per_page": 20,
     "page": 0,
@@ -1837,5 +1659,5 @@
     "arguments": null,
     "fixes": null,
     "suggests": null,
-    "alternate_url": "https://hh.ru/search/vacancy?enable_snippets=true&text=%D0%9B%D0%BE%D0%B3%D0%B8%D1%81%D1%82"
+    "alternate_url": "https://hh.ru/search/vacancy?enable_snippets=true&order_by=publication_time&search_field=name&text=%D0%92%D0%BE%D0%B4%D0%B8%D1%82%D0%B5%D0%BB%D1%8C"
 }
