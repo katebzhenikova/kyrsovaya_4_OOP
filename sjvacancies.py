@@ -9,18 +9,22 @@ class SuperJob(APIget):
         }
 
     def get_vacancies(self):
+        '''Запрос по параметрам .json'''
         headers = {'X-Api-App-Id': os.environ['API_SuperJob']}
         return requests.get(self.url, headers=headers, params=self.params).json()
 
     def save_vacancies_to_file(self):
+        '''Запись полученного запросав файл.json'''
         with open('all_SJ_vacancies.json', 'w', encoding='utf-8') as file:
             json.dump(self.get_vacancies(), file, ensure_ascii=False, indent=4)
+
 
 class VacanciesSJ(VacanciesHH):
     def __init__(self):
         super().__init__()
 
     def sorted_vacancies(self):
+        '''Чтение и сортировка полученного файла .json'''
         with open('all_SJ_vacancies.json', 'r', encoding='utf-8') as f:
             data = json.load(f)
 
@@ -32,6 +36,7 @@ class VacanciesSJ(VacanciesHH):
 
     def vacancies_in_console(func):
         def wrapper(self, *args, **kwargs):
+            '''Обертка для вывода информации пользователю'''
             result = func(self, *args, **kwargs)
             for dictionary in result:
                 if isinstance(dictionary, dict):
@@ -40,7 +45,8 @@ class VacanciesSJ(VacanciesHH):
                         print(f'{k}: {dictionary[k]}')
             return result
         return wrapper
-    #@vacancies_in_console
+
+
     def sorted_by_city(self, city):
         '''Отбор по городу'''
         self.sorted_city_name = []
@@ -81,7 +87,14 @@ class VacanciesSJ(VacanciesHH):
 
     @vacancies_in_console
     def sorted_by_city_print(self):
+        '''Отфильтрованный список по городу или без'''
         return self.sorted_city_name
+
+    def __repr__(self):
+        return f"{self.__class__.__name__}"
+
+    def __str__(self):
+        return f'{self.sort_vacancies}'
 
 
 
@@ -92,7 +105,7 @@ class VacanciesSJ(VacanciesHH):
 # vsj = VacanciesSJ()
 # vsj.sorted_vacancies()
 # vsj.sorted_by_city(None)
-# #vsj.sorted_by_salary_up()
+# vsj.sorted_by_salary_up()
 # #vsj.sorted_by_salary_down()
 # vsj.sorted_by_salary_range(0, 100000)
 

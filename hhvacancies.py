@@ -1,14 +1,8 @@
 import os
-from abc import ABC, abstractmethod
+from abstract_classes import *
 import requests
 import json
 
-class APIget(ABC):
-    @abstractmethod
-    def get_vacancies(self):
-        pass
-    def save_vacancies_to_file(self):
-        pass
 
 class HH_api_get(APIget):
     def __init__(self, keyword, page=0):
@@ -19,12 +13,20 @@ class HH_api_get(APIget):
         }
 
     def get_vacancies(self):
+        '''Запрос по параметрам в виде.json'''
         all_vacancies = requests.get(self._url, params=self._params).json()
         return all_vacancies
 
     def save_vacancies_to_file(self):
+        '''Запись полученного запросав файл.json'''
         with open('all_HH_vacancies.json', 'w', encoding='utf-8') as file:
             json.dump(self.get_vacancies(), file, ensure_ascii=False, indent=4)
+
+    def __repr__(self):
+        return f'{self.__class__.__name__}({self._url}, {self._params})'
+
+    def __str__(self):
+        return f'{self._url}'
 
 
 
@@ -38,9 +40,8 @@ class VacanciesHH:
         self.zero_salary_jobs = []
 
 
-
-
     def sorted_vacancies(self):
+        '''Чтение и сортировка полученного файла .json'''
         with open('all_HH_vacancies.json', 'r', encoding='utf-8') as f:
             data = json.load(f)
 
@@ -62,6 +63,7 @@ class VacanciesHH:
 
     def vacancies_in_console(func):
         def wrapper(self, *args, **kwargs):
+            '''Обертка для вывода информации пользователю'''
             result = func(self, *args, **kwargs)
             for dictionary in result:
                 if isinstance(dictionary, dict):
@@ -71,7 +73,7 @@ class VacanciesHH:
             return result
         return wrapper
 
-    #@vacancies_in_console
+
     def sorted_by_city(self, city):
         '''Отбор по городу'''
         self.sorted_city_name = []
@@ -85,6 +87,7 @@ class VacanciesHH:
 
     @vacancies_in_console
     def sorted_by_city_print(self):
+        '''Отфильтрованный список по городу или без'''
         return self.sorted_city_name
 
     @vacancies_in_console
@@ -94,7 +97,7 @@ class VacanciesHH:
         return self.zero_salary_jobs
 
 
-    def no_salary(self):
+    def salary_int(self):
         '''Значения ключа зарплата не равно 'не указано' для использования внутри класса, чтобы сортировать зарплату'''
         self.non_zero_salary_jobs = [i for i in self.sorted_city_name if i.get('Зарплата') and i['Зарплата'] != 'не указано']
         return self.non_zero_salary_jobs
@@ -123,6 +126,13 @@ class VacanciesHH:
         ]
         return sorted_salary_range
 
+    def __repr__(self):
+        return f'{self.__class__.__name__}({self.sorted_city_name}, {self.zero_salary_jobs}, {self.non_zero_salary_jobs})'
+
+    def __str__(self):
+        return f'{self.sorted_city_name}'
+
+
 
 
 # hh_api_get = HH_api_get('python')
@@ -130,8 +140,7 @@ class VacanciesHH:
 # hh_api_get.get_vacancies()
 # hh_api_get.save_vacancies_to_file()
 # v.sorted_vacancies()
-# v.sorted_by_city('Москва')
-# v.sort_vacancies
+#
 # v.sorted_by_city('Москва')
 # v.no_salary()
 # v.sorted_by_salary_up()
