@@ -24,18 +24,22 @@ class SuperJob(APIget):
 
 class VacanciesSJ:
     def __init__(self):
+        self.data = {}
         self.sort_vacancies = []
         self.sorted_city_name = []
 
-    def sorted_vacancies(self):
-        '''Чтение и сортировка полученного файла .json'''
+    def read_vacancies(self):
+        '''Чтение полученного файла .json'''
         with open('all_SJ_vacancies.json', 'r', encoding='utf-8') as f:
-            data = json.load(f)
+            self.data = json.load(f)
 
+
+    def sorted_vacancies(self):
+        '''Сортировка полученного файла .json'''
         self.sort_vacancies = [{'Вакансия': i['profession'], 'URL адрес': i['client']['link'],
                             'Место расположения': i['client']['town']['title'], 'Зарплата от': i['payment_from'],
                             'Зарплата до': i['payment_to'], 'Опыт работы': i['experience']['title'], 'Требования': i['candidat']}
-                             for i in data['objects']]
+                             for i in self.data['objects']]
         return self.sort_vacancies
 
     def vacancies_in_console(func):
@@ -102,13 +106,15 @@ class VacanciesSJ:
 
 
 
-#
+
 # sj = SuperJob('python')
 # sj.get_vacancies()
 # sj.save_vacancies_to_file()
 # vsj = VacanciesSJ()
+# vsj.read_vacancies()
+# vsj.read_vacancies()
 # vsj.sorted_vacancies()
-# vsj.sorted_by_city(None)
+# vsj.sorted_by_city('Москва')
 # vsj.sorted_by_salary_up()
 # #vsj.sorted_by_salary_down()
 # vsj.sorted_by_salary_range(0, 100000)

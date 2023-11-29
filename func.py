@@ -19,11 +19,13 @@ def user_interaction():
     vacancies_hh = VacanciesHH()
     hh_api_get.get_vacancies()
     hh_api_get.save_vacancies_to_file()
+    vacancies_hh.read_vacancies()
     vacancies_hh.sorted_vacancies()
     sj = SuperJob(search_query)
     sj.get_vacancies()
     sj.save_vacancies_to_file()
     vacancies_sj = VacanciesSJ()
+    vacancies_sj.read_vacancies()
     vacancies_sj.sorted_vacancies()
 
     if platform_choise == 1:

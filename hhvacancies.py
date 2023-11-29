@@ -40,13 +40,16 @@ class VacanciesHH(VacanciesSJ):
 
 
 
-    def sorted_vacancies(self):
-        '''Чтение и сортировка полученного файла .json'''
+    def read_vacancies(self):
+        '''Чтение полученного файла .json'''
         with open('all_HH_vacancies.json', 'r', encoding='utf-8') as f:
-            data = json.load(f)
+            self.data = json.load(f)
 
+
+    def sorted_vacancies(self):
+        '''Сортировка полученного файла .json'''
         self.sort_vacancies = []
-        for i in data['items']:
+        for i in self.data['items']:
             if i['salary'] is not None:
                 self.salary_from = i['salary']['from']
                 self.salary_to = i['salary']['to']
@@ -133,11 +136,12 @@ class VacanciesHH(VacanciesSJ):
 # v = VacanciesHH()
 # hh_api_get.get_vacancies()
 # hh_api_get.save_vacancies_to_file()
+# v.read_vacancies()
 # v.sorted_vacancies()
-# #
+#
 # v.sorted_by_city('Москва')
 # #
-# #v.sorted_by_salary_up()
+# v.sorted_by_salary_up()
 # v.sorted_by_city_print()
 # v.sorted_by_salary_down()
 #v.sorted_by_salary_range(10000, 80000)
