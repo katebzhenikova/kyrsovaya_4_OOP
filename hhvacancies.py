@@ -39,7 +39,6 @@ class VacanciesHH(VacanciesSJ):
         self.salary_to = 0
 
 
-
     def read_vacancies(self):
         '''Чтение полученного файла .json'''
         with open('all_HH_vacancies.json', 'r', encoding='utf-8') as f:

@@ -3,35 +3,42 @@ from sjvacancies import SuperJob, VacanciesSJ
 
 
 def user_interaction():
-    platform_choise = int(input('''
+    while True:
+
+        search_query = str(input('Введите ключевое слово для поиска вакансий:\n').title())
+
+        platform_choise = int(input('''
 Здравствуйте, выберите платформу для предоставления вакансий:
 1 --> HeadHanter
 2 --> Superjob 
 0 --> Выйти
 Ввод данных: '''))
 
-    if platform_choise == 0:
-        quit()
+        if platform_choise == 0:
+            quit()
 
-    search_query = str(input('Введите ключевое слово для поиска вакансий:\n').title())
+        hh_api_get = HH_api_get(search_query)
+        vacancies_hh = VacanciesHH()
+        hh_api_get.get_vacancies()
+        hh_api_get.save_vacancies_to_file()
+        vacancies_hh.read_vacancies()
+        vacancies_hh.sorted_vacancies()
+        sj = SuperJob(search_query)
+        sj.get_vacancies()
+        sj.save_vacancies_to_file()
+        vacancies_sj = VacanciesSJ()
+        vacancies_sj.read_vacancies()
+        vacancies_sj.sorted_vacancies()
 
-    hh_api_get = HH_api_get(search_query)
-    vacancies_hh = VacanciesHH()
-    hh_api_get.get_vacancies()
-    hh_api_get.save_vacancies_to_file()
-    vacancies_hh.read_vacancies()
-    vacancies_hh.sorted_vacancies()
-    sj = SuperJob(search_query)
-    sj.get_vacancies()
-    sj.save_vacancies_to_file()
-    vacancies_sj = VacanciesSJ()
-    vacancies_sj.read_vacancies()
-    vacancies_sj.sorted_vacancies()
-
-    if platform_choise == 1:
-        vacancies = vacancies_hh
-    if platform_choise == 2:
-        vacancies = vacancies_sj
+        if platform_choise == 1:
+            vacancies = vacancies_hh
+            break
+        if platform_choise == 2:
+            vacancies = vacancies_sj
+            break
+        else:
+            print('Пожалуйста введите цифру из предложенных вариантов')
+            continue
 
     while True:
         try:
