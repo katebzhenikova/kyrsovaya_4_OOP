@@ -55,22 +55,22 @@ def user_interaction():
             continue
         try:
             if vacancies_filter == 1:
-                vacancies.sorted_by_salary_up()
+                data = vacancies.sorted_by_salary_up()
                 break
             if vacancies_filter == 2:
-                vacancies.sorted_by_salary_down()
+                data = vacancies.sorted_by_salary_down()
                 break
             if vacancies_filter == 3:
                 salary_from = int(input('Введите зарплата от '))
                 salary_to = int(input('Введите зарплата до '))
-                vacancies.sorted_by_salary_range(salary_from, salary_to)
+                data = vacancies.sorted_by_salary_range(salary_from, salary_to)
                 break
             if vacancies_filter == 0:
-                vacancies.sorted_by_profession_print()
+                data = vacancies.sorted_by_profession_print()
                 break
         except TypeError:
             print("Ошибка типа данных, пожалуйста, проверьте ввод.")
 
-
+    vacancies.storage.save_data(data)
 
 #user_interaction()
