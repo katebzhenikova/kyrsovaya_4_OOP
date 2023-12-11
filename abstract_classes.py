@@ -6,5 +6,8 @@ class APIget(ABC):
     @abstractmethod
     def get_vacancies(self):
         pass
-    def save_vacancies_to_file(self):
+    def sorted_vacancies(self):
+        pass
+
+    def get_and_save_sorted_vacancies(self):
         pass
